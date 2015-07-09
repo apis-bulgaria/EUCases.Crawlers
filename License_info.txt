@@ -1,0 +1,36 @@
+Authorship and OSS license
+
+The crawler tools have been developed by members of the EUCases consortium 
+as part of the EUCases project supported under the 7th Framework Program of 
+the European Commission. Author of the code and documentation of the crawler 
+tools for Italian legal portals is prof. Guido Boella, 
+University of Turin, the code and documentation of the crawler tools for web 
+sites of selected open access journals in the field of law have been developed 
+by Averbis GmbH, and those for all other legal portals relevant to the goals 
+of the EUCases project – by Apis Hristovich EOOD. The source code and the 
+software of the crawler tools developed under the EUCases project are made 
+publicly available under the European Union Public Licence (EUPL, v.1.1), see:
+https://joinup.ec.europa.eu/software/page/eupl/licence-eupl.  
+
+Unless required by applicable law, software distributed under the license is 
+distributed on an "AS IS" basis, without warranties or conditions of any kind, 
+either express or implied. More specifically, the licensor does not provide any 
+warranty that crawler tools will download open legal data properly in the case 
+of subsequent changes of the structure of the respective web sites. See the EUPL 
+for the specific language governing permissions and limitations under the license.
+
+Disclaimer of liability for infringement of 
+copyright or database right on the crawled data
+
+Licensees can exercise all rights granted under the EUPL only with respect to the 
+use of the software (source code, documentation and executable code) of the crawler 
+tools developed by members of the EUCases consortium. Neither this license nor any 
+document or deliverable made publicly available by the EUCases consortium can be 
+understood as entitlement for re-use of any data and/or documents which the crawler 
+tools are capable to download from public legal portals and/or web sites of open 
+access journals. The EUCases consortium or any of its members will in no event be 
+liable for infringement of copyright or database right by a licensee occurred in a 
+consequence of the use of the software of the crawler tools. The licensee is solely 
+responsible for checking on his own the conditions for re-use of data for each public 
+legal portal or web site of an open access journal he intends to crawl and will be 
+solely liable for any breach of the legal terms for data re-use. 

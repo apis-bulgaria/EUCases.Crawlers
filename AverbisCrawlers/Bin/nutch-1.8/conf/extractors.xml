@@ -1,0 +1,169 @@
+<config xmlns="http://bayan.ir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://bayan.ir http://raw.github.com/BayanGroup/nutch-custom-search/master/zal.extractor/src/main/resources/extractors.xsd">
+    <types/>
+    <fields>
+        <field name="eucases.article-title" />
+        <field name="eucases.article-authors" multi="true" />
+        <field name="eucases.article-date" />
+        <field name="eucases.article-url" />
+        <field name="eucases.journal" />
+        <field name="eucases.source" />
+    </fields>
+    <documents>
+        <!-- Utrecht Journal -->
+        <document url="http://www.utrechtjournal.org/article/view/.+" engine="css">
+            <extract-to field="eucases.article-title">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=citation_title]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-authors">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Creator.PersonalName]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-date">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Date.issued]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-url">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=citation_pdf_url]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.journal">
+                <constant value="Utrecht" />
+            </extract-to>
+            <extract-to field="eucases.source">
+                <constant value="http://www.utrechtjournal.org/" />
+            </extract-to>
+        </document>
+        <!-- jipitec -->
+        <document url="https?://www.jipitec.eu/issues/jipitec-\d+-\d+-\d+/\d+$" engine="css">
+            <extract-to field="eucases.article-title">
+              <!-- " &mdash;  jipitec" is used in title -->
+              <replace pattern="\s+—\s+jipitec\s*$" substitution="">
+                <!-- whitespace before title -->
+                <replace pattern="^(\s*)" substitution="">
+                  <text>
+                      <expr value="html head title" />
+                  </text>
+                </replace>
+              </replace>
+            </extract-to>
+            <extract-to field="eucases.article-authors">
+                <text>
+                    <expr value="div#authorblurb a.authorname" />
+                </text>
+            </extract-to>
+            <!-- date is missing
+            <extract-to field="eucases.article-date">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Date.issued]" />
+                </attribute>
+            </extract-to>
+            -->
+            <extract-to field="eucases.article-url">
+              <!-- only one of the expression matches -->
+              <concat delimiter="">
+                <attribute name="href">
+                    <expr value="div p a.state-visible" />
+                </attribute>
+                <attribute name="href">
+                    <expr value="div p a.state-published" />
+                </attribute>
+              </concat>
+            </extract-to>
+            <extract-to field="eucases.journal">
+                <constant value="jipitec" />
+            </extract-to>
+            <extract-to field="eucases.source">
+                <constant value="http://www.jipitec.eu/" />
+            </extract-to>
+        </document>
+        <!-- EJLT -->
+        <document url="http://ejlt.org/article/view/\d+$" engine="css">
+            <extract-to field="eucases.article-title">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Title]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-authors">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Creator.PersonalName]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-date">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Date.issued]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-url">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=citation_pdf_url]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.journal">
+                <constant value="European Journal of Law and Technology" />
+            </extract-to>
+            <extract-to field="eucases.source">
+                <constant value="http://ejlt.org/" />
+            </extract-to>
+        </document>
+        <!-- webjcli -->
+        <document url="http://webjcli.org/article/view/\d+$" engine="css">
+            <extract-to field="eucases.article-title">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Title]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-authors">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Creator.PersonalName]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-date">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=DC.Date.issued]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.article-url">
+                <attribute name="content">
+                    <expr value="html > head > meta[name=citation_fulltext_html_url]" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.journal">
+                <constant value="Web Journal of Current Legal  Issues" />
+            </extract-to>
+            <extract-to field="eucases.source">
+                <constant value="http://webjcli.org/" />
+            </extract-to>
+        </document>
+        <!-- GoJIL -->
+        <document url="http://www.gojil.eu/index.php/\d+-.*$" engine="css">
+            <extract-to field="eucases.article-title">
+                <text>
+                  <first>
+                    <expr value="div#content span[itemprop=articleBody] > h3" />
+                  </first>
+                </text>
+            </extract-to>
+            <extract-to field="eucases.article-authors">
+                <text>
+                    <expr value="div#content span[itemprop=articleBody] > h5" />
+                </text>
+            </extract-to>
+            <extract-to field="eucases.article-url">
+                <attribute name="href">
+                    <expr value="div#content span[itemprop=articleBody] > p > a.btn.btn-gojil" />
+                </attribute>
+            </extract-to>
+            <extract-to field="eucases.journal">
+                <constant value="Goettingen Journal of International Law" />
+            </extract-to>
+            <extract-to field="eucases.source">
+                <constant value="http://www.gojil.eu/" />
+            </extract-to>
+        </document>
+    </documents>
+</config>

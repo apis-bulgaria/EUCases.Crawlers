@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.averbis.eucases.outlinkmeta.nutch</groupId>
+  <artifactId>outlinkmeta</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <organization>
+  	<name>Averbis GmbH, Germany</name>
+ 	<url>http://www.averbis.de</url>
+  </organization>
+	<licenses>
+	    <license>
+		    <name>Apache License, Version 2.0</name>
+		    <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+		    <distribution>manual</distribution>
+		    <comments>Version 2.0, January 2004</comments>
+	    </license>
+    </licenses>
+	<developers>
+		<developer>
+			<name>Florian Schmedding</name>
+		</developer>
+	</developers>
+	<properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<nutch-version>1.8</nutch-version>
+		<hadoop-version>2.4.0</hadoop-version>
+	</properties>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.nutch</groupId>
+  		<artifactId>nutch</artifactId>
+  		<version>${nutch-version}</version>
+  		<exclusions>
+		  <exclusion>
+		     <groupId>com.sun.jdmk</groupId>
+		     <artifactId>jmxtools</artifactId>
+		  </exclusion>
+		  <exclusion>
+		     <groupId>com.sun.jmx</groupId>
+		     <artifactId>jmxri</artifactId>
+		  </exclusion>
+	  	</exclusions>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  		<artifactId>hadoop-common</artifactId>
+  		<version>${hadoop-version}</version>
+  		<scope>provided</scope>
+  	</dependency>
+
+  	<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  		<artifactId>hadoop-mapreduce-client-core</artifactId>
+  		<version>2.3.0</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
+  
+	<build>
+  
+		<plugins>
+		
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<optimize>true</optimize>
+					<debug>true</debug>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>default-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/plugins/${project.artifactId}/</outputDirectory>
+							<encoding>UTF-8</encoding>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<outputDirectory>${project.build.directory}/plugins/${project.artifactId}/
+					</outputDirectory>
+					<archive>
+					    <addMavenDescriptor>false</addMavenDescriptor>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+						</manifest>
+					</archive>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+		</plugins>
+  
+  </build>
+</project>

@@ -1,0 +1,142 @@
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+# The default url filter.
+# Better for whole-internet crawling.
+
+# Each non-comment, non-blank line contains a regular expression
+# prefixed by '+' or '-'.  The first matching pattern in the file
+# determines whether a URL is included or ignored.  If no pattern
+# matches, the URL is ignored.
+
+# skip file: ftp: and mailto: urls
+-^(file|ftp|mailto):
+
+# skip image and other suffixes we can't yet parse
+# for a more extensive coverage use the urlfilter-suffix plugin
+-\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|ppt|PPT|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS)$
+
+# skip URLs containing certain characters as probable queries, etc.
+-[?*!@=]
+
+# skip URLs with slash-delimited segment that repeats 3+ times, to break loops
+-.*(/[^/]+)/[^/]+\1/[^/]+\1/
+
+# accept everything else
+#+.*
+
+# accept Utrecht Journal
+# archive and issues
++http://www.utrechtjournal.org/issue/.*
+# article page
++http://www.utrechtjournal.org/article/view/.+
+# pdf
++http://www.utrechtjournal.org/article/download/.+
+
+
+# accept Jipitec
+# archive
++https?://www.jipitec.eu/issues$
+# issue
++https?://www.jipitec.eu/issues/jipitec-\d+-\d+-\d+$
+# artice page
++https?://www.jipitec.eu/issues/jipitec-\d+-\d+-\d+/\d+$
+# pdf
++https?://www.jipitec.eu/issues/jipitec-\d+-\d+-\d+/\d+/.*pdf$
+
+
+# accept EJLT
+# EJLT contains links with "broken" URLs containing //
+# archive
++http://ejlt.org/issue/archive$
+# issue
++http://ejlt.org/issue/view/\d+$
+# article page
++http://ejlt.org/article/view/\d+$
+# pdf
++http://ejlt.org/article/download/\d+/\d+$
+
+
+# accept webjcli
+# archive
++http://webjcli.org/issue/archive$
+# issues
++http://webjcli.org/issue/view/\d+$
+# article page
++http://webjcli.org/article/view/\d+$
+# fulltext html
++http://webjcli.org/article/view/\d+/\d+$
+
+# accept GOJIL
+# archive
++http://www.gojil.eu/archives/issues.html$
+# issues
++http://www.gojil.eu/\d+-home$
+# article page
++http://www.gojil.eu/index.php/\d+-.*$
+# pdf
++http://www.gojil.eu/issues/\d+/\d+_.*pdf$
+
+# accept Juridica Int'l
+# archive, issues
++http://www.juridicainternational.eu/index/
+# exclude home
+-http://www.juridicainternational.eu/index.php?id=13246$
+# exclude last issue
+-http://www.juridicainternational.eu/index.php?id=10522$
+#exclude differnt index link
+-http://www.juridicainternational.eu/index.php?id=13248$
+# exclude notes fot authors
+-http://www.juridicainternational.eu/index.php?id=14701$
+# exclude auhtors
+-http://www.juridicainternational.eu/index.php?id=11270$
+# exclude subscriptions
+-http://www.juridicainternational.eu/index.php?id=14176$
+# exclude board
+-http://www.juridicainternational.eu/index.php?id=11653$
+# exclude staff
+-http://www.juridicainternational.eu/index.php?id=13744$
+# exclude rss
+-http://www.juridicainternational.eu/?id=13248&op=rss$
+# article page
++http://www.juridicainternational.eu/index.php?id=\d+$
++http://www.juridicainternational.eu/index/\d+/vol-.*
+# pdf
++http://www.juridicainternational.eu/public/pdf/.*pdf$
+
+# accept Comparative Law Review
+# archive
++http://www.comparativelawreview.com/ojs/index.php/CoLR/issue/archive$
+# issues
++http://www.comparativelawreview.com/ojs/index.php/CoLR/issue/view/\d+$
+# article frame page
++http://www.comparativelawreview.com/ojs/index.php/CoLR/article/view/\d+$
+# article page
++http://www.comparativelawreview.com/ojs/index.php/CoLR/article/viewArticle/\d+$
+# pdf
+#+http://www.comparativelawreview.com/ojs/index.php/CoLR/article/view/\d+/\d+$
++http://www.comparativelawreview.com/ojs/index.php/CoLR/article/download/\d+/\d+$
+
+# accept ifosslr
+# archive
++http://www.ifosslr.org/ifosslr/issue/archive$
+# issues
++http://www.ifosslr.org/ifosslr/issue/view/\d+$
+# article page
++http://www.ifosslr.org/ifosslr/article/view/\d+$
+# pdf
+#+http://www.ifosslr.org/ifosslr/article/view/\d+/\d+$
++http://www.ifosslr.org/ifosslr/article/download/\d+/\d+$

@@ -1,0 +1,11 @@
+This distribution includes the following additional plugins for Nutch:
+
+nutch-custom-search (extractor) <https://github.com/BayanGroup/nutch-custom-search>
+with the modifications from <https://github.com/florianschmedding/nutch-custom-search>,
+licensed under the Apache License, Version 2.0, January 2004 <http://www.apache.org/licenses/>
+
+outlinkmeta <https://github.com/florianschmedding/outlinkmeta>,
+licensed under the Apache License, Version 2.0, January 2004 <http://www.apache.org/licenses/>
+
+indexer-eucases <http://eucases.eu/1588/>,
+licensed under the European Union Public Licence (EUPL v.1.1), Version 1.1, 2007 <https://joinup.ec.europa.eu/software/page/eupl/licence-eupl>

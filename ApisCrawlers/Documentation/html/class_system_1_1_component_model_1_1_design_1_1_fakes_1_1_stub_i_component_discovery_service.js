@@ -1,0 +1,5 @@
+var class_system_1_1_component_model_1_1_design_1_1_fakes_1_1_stub_i_component_discovery_service =
+[
+    [ "StubIComponentDiscoveryService", "class_system_1_1_component_model_1_1_design_1_1_fakes_1_1_stub_i_component_discovery_service.html#a63b8efbd3605895355848f3958432d62", null ],
+    [ "GetComponentTypesIDesignerHostType", "class_system_1_1_component_model_1_1_design_1_1_fakes_1_1_stub_i_component_discovery_service.html#a6376a5cef9c0698b8e049c48bc82d49a", null ]
+];

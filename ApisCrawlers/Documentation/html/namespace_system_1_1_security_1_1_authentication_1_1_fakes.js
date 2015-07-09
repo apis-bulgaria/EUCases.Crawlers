@@ -1,0 +1,5 @@
+var namespace_system_1_1_security_1_1_authentication_1_1_fakes =
+[
+    [ "StubAuthenticationException", "class_system_1_1_security_1_1_authentication_1_1_fakes_1_1_stub_authentication_exception.html", "class_system_1_1_security_1_1_authentication_1_1_fakes_1_1_stub_authentication_exception" ],
+    [ "StubInvalidCredentialException", "class_system_1_1_security_1_1_authentication_1_1_fakes_1_1_stub_invalid_credential_exception.html", "class_system_1_1_security_1_1_authentication_1_1_fakes_1_1_stub_invalid_credential_exception" ]
+];

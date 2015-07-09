@@ -1,0 +1,25 @@
+var namespace_system_1_1_collections_1_1_generic_1_1_fakes =
+[
+    [ "StubComparer< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_comparer_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_comparer_3_01_t_01_4" ],
+    [ "StubDictionary< TKey, TValue >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_dictionary_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_dictionary_3_01_t_key_00_01_t_value_01_4" ],
+    [ "StubEqualityComparer< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_equality_comparer_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_equality_comparer_3_01_t_01_4" ],
+    [ "StubICollection< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_collection_3_01_t_01_4" ],
+    [ "StubIComparer< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_comparer_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_comparer_3_01_t_01_4" ],
+    [ "StubIDictionary< TKey, TValue >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4" ],
+    [ "StubIEnumerable< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_enumerable_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_enumerable_3_01_t_01_4" ],
+    [ "StubIEnumerator< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_enumerator_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_enumerator_3_01_t_01_4" ],
+    [ "StubIEqualityComparer< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_equality_comparer_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_equality_comparer_3_01_t_01_4" ],
+    [ "StubIList< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_list_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_list_3_01_t_01_4" ],
+    [ "StubIReadOnlyCollection< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_collection_3_01_t_01_4" ],
+    [ "StubIReadOnlyDictionary< TKey, TValue >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_dictionary_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_dictionary_3_01_t_key_00_01_t_value_01_4" ],
+    [ "StubIReadOnlyList< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_list_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_read_only_list_3_01_t_01_4" ],
+    [ "StubKeyNotFoundException", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_key_not_found_exception.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_key_not_found_exception" ],
+    [ "StubList< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_list_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_list_3_01_t_01_4" ],
+    [ "StubISet< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_set_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_set_3_01_t_01_4" ],
+    [ "StubLinkedList< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_linked_list_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_linked_list_3_01_t_01_4" ],
+    [ "StubQueue< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_queue_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_queue_3_01_t_01_4" ],
+    [ "StubSortedDictionary< TKey, TValue >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_dictionary_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_dictionary_3_01_t_key_00_01_t_value_01_4" ],
+    [ "StubSortedList< TKey, TValue >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_list_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_list_3_01_t_key_00_01_t_value_01_4" ],
+    [ "StubSortedSet< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_set_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_sorted_set_3_01_t_01_4" ],
+    [ "StubStack< T >", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_stack_3_01_t_01_4.html", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_stack_3_01_t_01_4" ]
+];

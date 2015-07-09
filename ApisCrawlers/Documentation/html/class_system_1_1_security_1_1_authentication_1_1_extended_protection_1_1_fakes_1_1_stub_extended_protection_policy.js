@@ -1,0 +1,13 @@
+var class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy =
+[
+    [ "StubExtendedProtectionPolicy", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a44c1b1869f03f5489d6c3904c9794c71", null ],
+    [ "StubExtendedProtectionPolicy", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a42cd052058967aa836fbd815d6d1ab2c", null ],
+    [ "StubExtendedProtectionPolicy", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a46e8a17e5ac85e10741a14fde6f055c2", null ],
+    [ "StubExtendedProtectionPolicy", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a6c16241b569a8e3faa7473e73a0fced2", null ],
+    [ "StubExtendedProtectionPolicy", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a72a8d2943e4d64c9be82d564fc08f4b7", null ],
+    [ "ToString", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a927bb76283436c0a36143a9d967f873a", null ],
+    [ "ToString01", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#acd277367fb3b16c31c5c58f806d0c1f5", null ],
+    [ "CallBase", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#afa525c7e7b13213e01ef6091e7ce929a", null ],
+    [ "InstanceBehavior", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a4a34ee659be50452f9058a195ab2ac14", null ],
+    [ "InstanceObserver", "class_system_1_1_security_1_1_authentication_1_1_extended_protection_1_1_fakes_1_1_stub_extended_protection_policy.html#a9df1266a4cbad44bc3d1f3e41e3ff606", null ]
+];

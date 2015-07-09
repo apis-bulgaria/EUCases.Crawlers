@@ -1,0 +1,28 @@
+var class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message =
+[
+    [ "StubISoapMessage", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#ab2ae46774fa2a523f6165cb550e95108", null ],
+    [ "AttachBackingFieldToHeaders", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a2ea89a18ce0b2a955eff4edee42a6fb1", null ],
+    [ "AttachBackingFieldToMethodName", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a158b160367c8347bf6c6a62f430c9e2b", null ],
+    [ "AttachBackingFieldToParamNames", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#abe1136090b22d1655e4cd8a394d653b9", null ],
+    [ "AttachBackingFieldToParamTypes", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#aeeb85cd646fe8670f5aeccaa6e475539", null ],
+    [ "AttachBackingFieldToParamValues", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a2a446bd2e41e63b0b12cb07756859e18", null ],
+    [ "AttachBackingFieldToXmlNameSpace", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#acf0942c2abfcd8c7cfdb33958e7e64e4", null ],
+    [ "HeadersGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a4e85735ff2bd64ecfbbf1bb359a6fb44", null ],
+    [ "HeadersSetHeaderArray", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a6ead091454c42773b51d4652468d9f5a", null ],
+    [ "MethodNameGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a4ec3546e803b7c47f07794f61601fd71", null ],
+    [ "MethodNameSetString", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a2d22d935754c4226dc574e3a3477cf4c", null ],
+    [ "ParamNamesGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#aa362f34c2a8d9b076bdbfb6f345428cc", null ],
+    [ "ParamNamesSetStringArray", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#aa838382ce6f2c59a1511107bdd8188e2", null ],
+    [ "ParamTypesGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a5c1ac45397be11ad69fb77281e6d8c97", null ],
+    [ "ParamTypesSetTypeArray", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a674e294dd91ff8a9e22481c4880d8145", null ],
+    [ "ParamValuesGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a960fde6b4f8f5e71146ffc00449aea5a", null ],
+    [ "ParamValuesSetObjectArray", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a49f13142de20c9cede86ef0e1954d2f4", null ],
+    [ "XmlNameSpaceGet", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#aef1f89c96eb699fe889004c1c59de73a", null ],
+    [ "XmlNameSpaceSetString", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a7e0ea53e3f73a5e574f9a78a4709b856", null ],
+    [ "Headers", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#ab414b03a80296091b5ecaa9006ec72da", null ],
+    [ "MethodName", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a8d542fa441da75eca8a232e28a22ded1", null ],
+    [ "ParamNames", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#aea8455b60c702d3c83cce8c13087a17f", null ],
+    [ "ParamTypes", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a2d2b2a02ee0b08269a45721d51fdd232", null ],
+    [ "ParamValues", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a31e172a49d63147f756ab9a85efa492d", null ],
+    [ "XmlNameSpace", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html#a1d7ad81b25a35bd13a7234ba0d42cb67", null ]
+];

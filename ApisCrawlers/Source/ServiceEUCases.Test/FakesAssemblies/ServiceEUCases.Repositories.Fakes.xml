@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServiceEUCases.Repositories.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ServiceEUCases.Repositories.Fakes.ShimDbRepository">
+            <summary>Shim type of ServiceEUCases.Repositories.DbRepository</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.ShimDbRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.ShimDbRepository.#ctor(ServiceEUCases.Repositories.DbRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.ShimDbRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.ShimDbRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.ShimDbRepository.Bind(ServiceEUCases.Repositories.IRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AddDocumentGroupDocumentGroup">
+            <summary>Sets the shim of DbRepository.AddDocumentGroup(DocumentGroup newDocumentGroup)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AddNewLogCrawlerLog">
+            <summary>Sets the shim of DbRepository.AddNewLog(CrawlerLog crawlerLog)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AddNewLogRangeIEnumerableOfCrawlerLog">
+            <summary>Sets the shim of DbRepository.AddNewLogRange(IEnumerable`1&lt;CrawlerLog&gt; crawlerLogs)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.Constructor">
+            <summary>Sets the shim of DbRepository.DbRepository()</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.DeleteDocumentGroupString">
+            <summary>Sets the shim of DbRepository.DeleteDocumentGroup(String identifier)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.GetIdentifierString">
+            <summary>Sets the shim of DbRepository.GetIdentifier(String identifier)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.GetOrCreateCrawlerIdString">
+            <summary>Sets the shim of DbRepository.GetOrCreateCrawlerId(String crawlerName)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.StaticConstructor">
+            <summary>Sets the shim of DbRepository.DbRepository()</summary>
+        </member>
+        <member name="T:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.AddDocumentGroupDocumentGroup">
+            <summary>Sets the shim of DbRepository.AddDocumentGroup(DocumentGroup newDocumentGroup)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.AddNewLogCrawlerLog">
+            <summary>Sets the shim of DbRepository.AddNewLog(CrawlerLog crawlerLog)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.AddNewLogRangeIEnumerableOfCrawlerLog">
+            <summary>Sets the shim of DbRepository.AddNewLogRange(IEnumerable`1&lt;CrawlerLog&gt; crawlerLogs)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.DeleteDocumentGroupString">
+            <summary>Sets the shim of DbRepository.DeleteDocumentGroup(String identifier)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.GetIdentifierString">
+            <summary>Sets the shim of DbRepository.GetIdentifier(String identifier)</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.ShimDbRepository.AllInstances.GetOrCreateCrawlerIdString">
+            <summary>Sets the shim of DbRepository.GetOrCreateCrawlerId(String crawlerName)</summary>
+        </member>
+        <member name="T:ServiceEUCases.Repositories.Fakes.StubDbRepository">
+            <summary>Stub type of ServiceEUCases.Repositories.DbRepository</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubDbRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubDbRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubDbRepository</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.StubDbRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.StubDbRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ServiceEUCases.Repositories.Fakes.StubDbRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ServiceEUCases.Repositories.Fakes.StubIRepository">
+            <summary>Stub type of ServiceEUCases.Repositories.IRepository</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.AddDocumentGroupDocumentGroup">
+            <summary>Sets the stub of IRepository.AddDocumentGroup(DocumentGroup newDocumentGroup)</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.AddNewLogCrawlerLog">
+            <summary>Sets the stub of IRepository.AddNewLog(CrawlerLog crawlerLog)</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.AddNewLogRangeIEnumerableOfCrawlerLog">
+            <summary>Sets the stub of IRepository.AddNewLogRange(IEnumerable`1&lt;CrawlerLog&gt; crawlerLogs)</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.DeleteDocumentGroupString">
+            <summary>Sets the stub of IRepository.DeleteDocumentGroup(String identifier)</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.GetIdentifierString">
+            <summary>Sets the stub of IRepository.GetIdentifier(String identifier)</summary>
+        </member>
+        <member name="F:ServiceEUCases.Repositories.Fakes.StubIRepository.GetOrCreateCrawlerIdString">
+            <summary>Sets the stub of IRepository.GetOrCreateCrawlerId(String crawlerName)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#AddDocumentGroup(ServiceEUCases.Data.DocumentGroup)">
+            <summary>Sets the stub of IRepository.AddDocumentGroup(DocumentGroup newDocumentGroup)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#AddNewLog(ServiceEUCases.Data.CrawlerLog)">
+            <summary>Sets the stub of IRepository.AddNewLog(CrawlerLog crawlerLog)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#AddNewLogRange(System.Collections.Generic.IEnumerable{ServiceEUCases.Data.CrawlerLog})">
+            <summary>Sets the stub of IRepository.AddNewLogRange(IEnumerable`1&lt;CrawlerLog&gt; crawlerLogs)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#DeleteDocumentGroup(System.String)">
+            <summary>Sets the stub of IRepository.DeleteDocumentGroup(String identifier)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#GetIdentifier(System.String)">
+            <summary>Sets the stub of IRepository.GetIdentifier(String identifier)</summary>
+        </member>
+        <member name="M:ServiceEUCases.Repositories.Fakes.StubIRepository.seucr::ServiceEUCases#Repositories#IRepository#GetOrCreateCrawlerId(System.String)">
+            <summary>Sets the stub of IRepository.GetOrCreateCrawlerId(String crawlerName)</summary>
+        </member>
+    </members>
+</doc>

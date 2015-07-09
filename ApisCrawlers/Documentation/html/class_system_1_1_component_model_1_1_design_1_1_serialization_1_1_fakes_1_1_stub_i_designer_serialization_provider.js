@@ -1,0 +1,5 @@
+var class_system_1_1_component_model_1_1_design_1_1_serialization_1_1_fakes_1_1_stub_i_designer_serialization_provider =
+[
+    [ "StubIDesignerSerializationProvider", "class_system_1_1_component_model_1_1_design_1_1_serialization_1_1_fakes_1_1_stub_i_designer_serialization_provider.html#a20dc2c83aac77307c390af9e4d05316e", null ],
+    [ "GetSerializerIDesignerSerializationManagerObjectTypeType", "class_system_1_1_component_model_1_1_design_1_1_serialization_1_1_fakes_1_1_stub_i_designer_serialization_provider.html#a4f5258ddad167e4becb001acbdac35f3", null ]
+];

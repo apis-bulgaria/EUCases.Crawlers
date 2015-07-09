@@ -1,0 +1,27 @@
+var class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group =
+[
+    [ "StubCodeGroup", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a39d7f1fcd5d8e7ac7ccc58b3ac5e256f", null ],
+    [ "Copy", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#acf308f53feb5fa281f7928815923d133", null ],
+    [ "CreateXml", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#ab3574522de21b7dd051e38d427212112", null ],
+    [ "Equals", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a4d7af6fccbad41c579614a5f9d00fa08", null ],
+    [ "GetHashCode", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a3434d15edfd621823946e57f2124b17c", null ],
+    [ "ParseXml", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#ab53912a04fd440c0032dde040020c54d", null ],
+    [ "Resolve", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a38a1e75c72c8c8cc2a14bc3e8cbd6986", null ],
+    [ "ResolveMatchingCodeGroups", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a0ba37ef4aad79161d0983b304b402179", null ],
+    [ "AttributeStringGet", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a9c4099647bf44042d87d1bcae28537e0", null ],
+    [ "Copy01", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a3a49345363b819a16ffb037c4a7b25ca", null ],
+    [ "CreateXmlSecurityElementPolicyLevel", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a3b63b21578ab18e58c8c3b5360dbcaeb", null ],
+    [ "EqualsObject", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a21b2d0b399480c4837e411ccfada8595", null ],
+    [ "GetHashCode01", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#ab41317a07ca4e78e6dfd066e09ffd0a5", null ],
+    [ "MergeLogicGet", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#ace495e5d87ff648cc3973fa25d15f6ec", null ],
+    [ "ParseXmlSecurityElementPolicyLevel", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a71e9b704f10747076f6672e9ab1f397c", null ],
+    [ "PermissionSetNameGet", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a32eefe0d7c0e7c6b31cc83e0e0996770", null ],
+    [ "ResolveEvidence", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a908d054966244c2752028dc1ef2b4c85", null ],
+    [ "ResolveMatchingCodeGroupsEvidence", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#aeaf23967955397188ae21123fca4062c", null ],
+    [ "AttributeString", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a62e8b0178f1f9d1cfc53830684c8f287", null ],
+    [ "CallBase", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#aad1cff130eef9e7783a7e8b6aec1e415", null ],
+    [ "InstanceBehavior", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a03cd05acfab09a6f9df9e2e2f90ce315", null ],
+    [ "InstanceObserver", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a6e5fa15cd0eb4ce5a06498ed6ed9b2df", null ],
+    [ "MergeLogic", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#ae46be593e6687d6048c5f6152e5b4a6f", null ],
+    [ "PermissionSetName", "class_system_1_1_security_1_1_policy_1_1_fakes_1_1_stub_code_group.html#a619eaa705abd164a4fe3ce36477e1146", null ]
+];

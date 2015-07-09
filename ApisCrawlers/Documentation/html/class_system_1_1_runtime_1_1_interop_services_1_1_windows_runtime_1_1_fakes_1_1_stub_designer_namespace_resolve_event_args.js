@@ -1,0 +1,7 @@
+var class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_designer_namespace_resolve_event_args =
+[
+    [ "StubDesignerNamespaceResolveEventArgs", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_designer_namespace_resolve_event_args.html#a2bd6ad49c18cfb2dfc7610c80a701606", null ],
+    [ "CallBase", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_designer_namespace_resolve_event_args.html#a0398d024820f6a00704f02b8caee19f4", null ],
+    [ "InstanceBehavior", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_designer_namespace_resolve_event_args.html#aa0e926a5927c4af0607b4bcded98677b", null ],
+    [ "InstanceObserver", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_designer_namespace_resolve_event_args.html#a213955f251da26130483f9d5301df077", null ]
+];

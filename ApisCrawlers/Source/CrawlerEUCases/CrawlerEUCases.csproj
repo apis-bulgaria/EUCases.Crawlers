@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11E1366B-E2E1-48BF-92AF-8B1D775D9773}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crawler</RootNamespace>
+    <AssemblyName>CrawlerEUCases</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\CrawlerEUCases.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.2\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.92.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.92.0\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.92.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.92.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.92.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Common\BaseCrawler.cs" />
+    <Compile Include="Classes\Common\Arguments.cs" />
+    <Compile Include="Classes\Common\DocDownloadedEventArguments.cs" />
+    <Compile Include="Classes\Common\CrawlerLog.cs" />
+    <Compile Include="Classes\Crawlers\DE\LegislationCommon.cs" />
+    <Compile Include="Classes\Crawlers\DE\LegislationGesetze.cs" />
+    <Compile Include="Classes\Crawlers\DE\LegislationVerwalt.cs" />
+    <Compile Include="Classes\Crawlers\EU\CuriaEuropa.cs" />
+    <Compile Include="Classes\Crawlers\EU\HudocEchr.cs" />
+    <Compile Include="Classes\Crawlers\EU\HudocJson\Columns.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Classes\Crawlers\EU\HudocJson\Result.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Classes\Crawlers\EU\HudocJson\RootObject.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Classes\Crawlers\EU\HudocJson\Spellingsuggestion.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="Classes\Crawlers\BG\LegalactsJustice.cs" />
+    <Compile Include="Classes\Crawlers\BG\ParliamentDv.cs" />
+    <Compile Include="Classes\Crawlers\BG\DominoVks.cs" />
+    <Compile Include="Classes\Crawlers\BG\SacGovernment.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundesarbeitsgericht.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundesverfassungsgericht.cs" />
+    <Compile Include="Classes\Crawlers\DE\BundesCommon.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundesfinanzhof.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundesgerichtshof.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundespatentgericht.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bundessozialgericht.cs" />
+    <Compile Include="Classes\Crawlers\DE\Bverwg.cs" />
+    <Compile Include="Classes\Crawlers\DE\LegislationGesetzeGovdata.cs" />
+    <Compile Include="Classes\Crawlers\DE\LegislationVerwaltGovdata.cs" />
+    <Compile Include="Classes\Crawlers\FR\Legifrance.cs" />
+    <Compile Include="Classes\Crawlers\UK\CaseLawHoLJudgments.cs" />
+    <Compile Include="Classes\Crawlers\UK\CaseLawJudicalOffice.cs" />
+    <Compile Include="Classes\Crawlers\UK\CaseLawSupremecourt.cs" />
+    <Compile Include="Classes\Crawlers\UK\Legislation.cs" />
+    <Compile Include="Classes\Crawlers\AT\RisBka.cs" />
+    <Compile Include="Classes\CRCompareXml\MD5HashHelper.cs" />
+    <Compile Include="Classes\Common\CrawlerManager.cs" />
+    <Compile Include="Classes\Common\ICrawler.cs" />
+    <Compile Include="Classes\ServiceContractor\ServiceContractor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceEUCasesReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Service References\ServiceEUCasesReference\ServiceEUCases.wsdl" />
+    <None Include="Service References\ServiceEUCasesReference\ServiceEUCases.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceEUCasesReference\ServiceEUCases1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceEUCasesReference\ServiceEUCases2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SQLiteData\SQLiteCrawlerData.sqlite">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceEUCasesReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceEUCasesReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceEUCasesReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceEUCasesReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceEUCasesReference\ServiceEUCases.disco" />
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrawlerEUCases.Data\CrawlerEUCases.Data.csproj">
+      <Project>{3987805e-9216-4dd8-bbc2-6c28554449fb}</Project>
+      <Name>CrawlerEUCases.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetainfoEUCases\MetainfoEUCases.csproj">
+      <Project>{63cb8fb4-1521-42f5-8052-1581a64cf412}</Project>
+      <Name>MetainfoEUCases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

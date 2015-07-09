@@ -1,0 +1,27 @@
+var class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed =
+[
+    [ "StubSHA1Managed", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#ac653a28446dee1fece94944e89fffa3d", null ],
+    [ "Dispose", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a81026c5a43c1302e68d1eae6fe6b153d", null ],
+    [ "HashCore", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a3edb7d3ee7b92a83e6fdf7e0e96b00b1", null ],
+    [ "HashFinal", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#af1ffbc5bf7bccc7b5058cdfd24a07bea", null ],
+    [ "Initialize", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#aa598a2a7dc89d2ad0b2d05df5b167655", null ],
+    [ "CanReuseTransformGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a4ae018276989080c010feeb67ca5bbc9", null ],
+    [ "CanTransformMultipleBlocksGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#af7476cd104a4e512e95cbaad6040983c", null ],
+    [ "DisposeBoolean", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a5d33018264b82db61fba0f3c8ce2f230", null ],
+    [ "HashCoreByteArrayInt32Int32", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#ad26495b84f5f77ced83a522d85b97c03", null ],
+    [ "HashFinal01", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a4ba3d8712ccf9f2b05d29ae6e5a97266", null ],
+    [ "HashGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a92543470f9e739eb740f6337ddf19a54", null ],
+    [ "HashSizeGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a45a5e1bbfc89f92d4656c5fc7dc78ee1", null ],
+    [ "Initialize01", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#aeefea971eff3fd70c5cb6893564f5ac6", null ],
+    [ "InputBlockSizeGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#aa301f625a809a38edd6d992312cbe509", null ],
+    [ "OutputBlockSizeGet", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#aa5da1c99babd332a07c5b4231fb0025d", null ],
+    [ "CallBase", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a1d8f2c94455d82393ec987c6f1910cdd", null ],
+    [ "CanReuseTransform", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a332f4a06797ab36de7bfd9f4e16c3ed0", null ],
+    [ "CanTransformMultipleBlocks", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#ad8653c279a439d9fd76049225f510246", null ],
+    [ "Hash", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a9117e986b41bb804e81ece3ee6b7ea88", null ],
+    [ "HashSize", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a50050db15b1ed1e792386799b159e9e7", null ],
+    [ "InputBlockSize", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#abdfd2f3bcfb8b06db42a60434306da68", null ],
+    [ "InstanceBehavior", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a15640e274ddd1ecbf7900218c99e34de", null ],
+    [ "InstanceObserver", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a57cf06f33fe05c8ea0660946d08a4fed", null ],
+    [ "OutputBlockSize", "class_system_1_1_security_1_1_cryptography_1_1_fakes_1_1_stub_s_h_a1_managed.html#a4f5246940a52ccea6d669a21d491b0e0", null ]
+];

@@ -1,0 +1,3 @@
+D:\Projects\EUCASES\CrawlerFramework\ServiceEUCases.Test\Fakes\ServiceEUCases.Repositories.fakes : warning : Cannot generate shim for ServiceEUCases.Repositories.IRepository: type is an interface.
+D:\Projects\EUCASES\CrawlerFramework\ServiceEUCases.Test\Fakes\ServiceEUCases.Repositories.fakes : warning : Cannot generate shim for ServiceEUCases.Repositories.DbRepository+<>c__DisplayClass1: type is not supported because of internal limitations.
+D:\Projects\EUCASES\CrawlerFramework\ServiceEUCases.Test\Fakes\ServiceEUCases.Repositories.fakes : warning : Cannot generate shim for ServiceEUCases.Repositories.DbRepository+<>c__DisplayClass3: type is not supported because of internal limitations.

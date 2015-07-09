@@ -1,0 +1,25 @@
+var class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry =
+[
+    [ "ShimEventLogEntry", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#abddc44d69f96b11f73fea754c5e2b381", null ],
+    [ "ShimEventLogEntry", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#abadccd176a9bac2d57e1c59b4dfe4762", null ],
+    [ "Bind", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a83ac2e6c69cd40b68d9ec4240db64d5d", null ],
+    [ "Bind", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#afb4e04820263ccfc8c0694d887f9f3aa", null ],
+    [ "Bind", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a7f659b1740c13d2823d4e094e225b4ef", null ],
+    [ "CategoryGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#ac059a13509fceb3655e0731e4b492466", null ],
+    [ "CategoryNumberGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#acba08b6161dc2e9c6ab43d964c9762d1", null ],
+    [ "DataGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a48ea6138e9bb60c65b414efd8f1668c7", null ],
+    [ "EntryTypeGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a3ae0dbb44f0e2bb8cd16af06303013c7", null ],
+    [ "EqualsEventLogEntry", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#abdf32ccd1d2939da65f79f0a9ab2bf9f", null ],
+    [ "EventIDGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a06b76ac10bf94472887703c3747a863a", null ],
+    [ "IndexGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a475d4b697761c694f5d7ebf4d10bd30a", null ],
+    [ "InstanceIdGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#aede3af464acbd4bc9af1b70866e37ce2", null ],
+    [ "MachineNameGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a31ffcaa77bc80629cccde86faf0b6fd3", null ],
+    [ "MessageGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a0ace60918d50469046a33d93d870e276", null ],
+    [ "ReplacementStringsGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#ababa14323927d6a4eb96219cdb78ad6a", null ],
+    [ "ReplaceMessageParametersStringStringArray", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a9256c7e2f24f8125e2093392ff138c6b", null ],
+    [ "SourceGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#ad4ab318b6c63e4abfd7596a28b6cbb75", null ],
+    [ "SystemRuntimeSerializationISerializableGetObjectDataSerializationInfoStreamingContext", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a1732ddf20091d125c460b4343d59ce74", null ],
+    [ "TimeGeneratedGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#acc70f3bf6c18ae635d2963a784ef7a48", null ],
+    [ "TimeWrittenGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#a4a0c79ea960eb4727a22d11e10d6d453", null ],
+    [ "UserNameGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_shim_event_log_entry.html#adca7e82ce6f5efa75188ff6b972067f3", null ]
+];

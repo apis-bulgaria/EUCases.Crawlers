@@ -1,0 +1,28 @@
+var class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle =
+[
+    [ "StubEventWaitHandle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a26d4d4ebae99845d955c8fa5effc9eb6", null ],
+    [ "StubEventWaitHandle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a637ef0f5acef0df643b6506e58e323f8", null ],
+    [ "StubEventWaitHandle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a9c688ad5cd257452f95bc7e9b9112a3e", null ],
+    [ "StubEventWaitHandle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#ae29de63195d19aacfa8205f2d3e42dbb", null ],
+    [ "AttachBackingFieldToHandle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a6a3981dd3b17fb4d6bd23fa6d0720e30", null ],
+    [ "Close", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a3d8886b2fec61e02896c79aeb6010262", null ],
+    [ "Dispose", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a2fca1606ddb42e69c18b74d4bbc78977", null ],
+    [ "WaitOne", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a4b1203c2f75ee993f3c0c0ee2640c25c", null ],
+    [ "WaitOne", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a8563c47b7ea000cb9a0bd5fdf27182c3", null ],
+    [ "WaitOne", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a2f449dbac570a21e54c27fefd47d5407", null ],
+    [ "WaitOne", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a07101c0180a580a5d408563ecffbe8a1", null ],
+    [ "WaitOne", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#aa6272e61648883346d30178c83204bb9", null ],
+    [ "Close01", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a396fefee6d119e2c15ef5172b7c0a720", null ],
+    [ "DisposeBoolean", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#ac50e7ecfc3d86f939b2eac43b55fc3eb", null ],
+    [ "HandleGet", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a0d08681fa55764301d137acc04c22440", null ],
+    [ "HandleSetIntPtr", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a3f0621f746fe7504950008260fde1c7f", null ],
+    [ "WaitOne01", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a558adc7bb597472cc62f452f4394454b", null ],
+    [ "WaitOneInt32", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a1f52552b8f4a62edb713e2fa2a7b74e1", null ],
+    [ "WaitOneInt32Boolean", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#af1dc29e14bb6f4cf066a2bafee6a6b77", null ],
+    [ "WaitOneTimeSpan", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#abba8ea18b569f9dc9a345bac982dc2b0", null ],
+    [ "WaitOneTimeSpanBoolean", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a8bef78f4f9b8a54a7d74310616b0247a", null ],
+    [ "CallBase", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a7664175d85b4149d279f78854c1629ae", null ],
+    [ "Handle", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a6da0ecf5ec64e5461b117bced2054de5", null ],
+    [ "InstanceBehavior", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a6fee6e49abc2cde6be7ad4bec8bfecd4", null ],
+    [ "InstanceObserver", "class_system_1_1_threading_1_1_fakes_1_1_stub_event_wait_handle.html#a912c3977ab86a5c66c5538ebd114fcb1", null ]
+];

@@ -1,0 +1,6 @@
+var namespace_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes =
+[
+    [ "StubIActivator", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_activator.html", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_activator" ],
+    [ "StubIConstructionCallMessage", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_construction_call_message.html", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_construction_call_message" ],
+    [ "StubIConstructionReturnMessage", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_construction_return_message.html", "class_system_1_1_runtime_1_1_remoting_1_1_activation_1_1_fakes_1_1_stub_i_construction_return_message" ]
+];

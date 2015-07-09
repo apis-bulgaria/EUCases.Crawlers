@@ -1,0 +1,6 @@
+var class_system_1_1_runtime_1_1_serialization_1_1_fakes_1_1_stub_i_serialization_surrogate =
+[
+    [ "StubISerializationSurrogate", "class_system_1_1_runtime_1_1_serialization_1_1_fakes_1_1_stub_i_serialization_surrogate.html#a3a2330a530c6b55b387aa89fca757e80", null ],
+    [ "GetObjectDataObjectSerializationInfoStreamingContext", "class_system_1_1_runtime_1_1_serialization_1_1_fakes_1_1_stub_i_serialization_surrogate.html#a2b538daf3631cbdfd38369b89b0d313e", null ],
+    [ "SetObjectDataObjectSerializationInfoStreamingContextISurrogateSelector", "class_system_1_1_runtime_1_1_serialization_1_1_fakes_1_1_stub_i_serialization_surrogate.html#a5c2814104bf43f5e8b04a9c125d63ebf", null ]
+];

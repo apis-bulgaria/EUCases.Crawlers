@@ -1,0 +1,5 @@
+var class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_i_activation_factory =
+[
+    [ "StubIActivationFactory", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_i_activation_factory.html#a740b0b6d029e1e653ca3e605df0b19d3", null ],
+    [ "ActivateInstance", "class_system_1_1_runtime_1_1_interop_services_1_1_windows_runtime_1_1_fakes_1_1_stub_i_activation_factory.html#af3c6dcfc6ee4cf523e755604fdc788d7", null ]
+];

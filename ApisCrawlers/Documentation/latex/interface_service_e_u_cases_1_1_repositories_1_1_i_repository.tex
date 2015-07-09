@@ -1,0 +1,98 @@
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository}{\section{Service\-E\-U\-Cases.\-Repositories.\-I\-Repository Interface Reference}
+\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository}\index{Service\-E\-U\-Cases.\-Repositories.\-I\-Repository@{Service\-E\-U\-Cases.\-Repositories.\-I\-Repository}}
+}
+Inheritance diagram for Service\-E\-U\-Cases.\-Repositories.\-I\-Repository\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_service_e_u_cases_1_1_repositories_1_1_i_repository}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a99d495d6c3f61baf8729653467cd15ce}{Get\-Or\-Create\-Crawler\-Id} (string crawler\-Name)
+\item 
+string \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_abfdba02543cd8c770e50bbc615c448d9}{Get\-Identifier} (string identifier)
+\item 
+int \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1c5941b15b47af92c02ff804a3cf32b6}{Delete\-Document\-Group} (string identifier)
+\item 
+void \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1dc7e14bffc195cc3fc51df35128064c}{Add\-Document\-Group} (\hyperlink{class_service_e_u_cases_1_1_data_1_1_document_group}{Document\-Group} new\-Document\-Group)
+\item 
+void \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_af8b3072d0263cf8cd3e6175577938fa3}{Add\-New\-Log} (\hyperlink{class_service_e_u_cases_1_1_data_1_1_crawler_log}{Crawler\-Log} crawler\-Log)
+\item 
+void \hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_ae8af796db94815cb1e3639e73f0b8732}{Add\-New\-Log\-Range} (I\-Enumerable$<$ \hyperlink{class_service_e_u_cases_1_1_data_1_1_crawler_log}{Crawler\-Log} $>$ crawler\-Logs)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1dc7e14bffc195cc3fc51df35128064c}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Add\-Document\-Group@{Add\-Document\-Group}}
+\index{Add\-Document\-Group@{Add\-Document\-Group}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Add\-Document\-Group}]{\setlength{\rightskip}{0pt plus 5cm}void Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Add\-Document\-Group (
+\begin{DoxyParamCaption}
+\item[{{\bf Document\-Group}}]{new\-Document\-Group}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1dc7e14bffc195cc3fc51df35128064c}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_ae4b034e9103223b0b8bb78383032d466}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_af8b3072d0263cf8cd3e6175577938fa3}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Add\-New\-Log@{Add\-New\-Log}}
+\index{Add\-New\-Log@{Add\-New\-Log}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Add\-New\-Log}]{\setlength{\rightskip}{0pt plus 5cm}void Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Add\-New\-Log (
+\begin{DoxyParamCaption}
+\item[{{\bf Crawler\-Log}}]{crawler\-Log}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_af8b3072d0263cf8cd3e6175577938fa3}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_a99421faf8de77dc789effe40a7b93113}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_ae8af796db94815cb1e3639e73f0b8732}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Add\-New\-Log\-Range@{Add\-New\-Log\-Range}}
+\index{Add\-New\-Log\-Range@{Add\-New\-Log\-Range}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Add\-New\-Log\-Range}]{\setlength{\rightskip}{0pt plus 5cm}void Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Add\-New\-Log\-Range (
+\begin{DoxyParamCaption}
+\item[{I\-Enumerable$<$ {\bf Crawler\-Log} $>$}]{crawler\-Logs}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_ae8af796db94815cb1e3639e73f0b8732}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_a9af7cfcd5421e7ffb403430487138ae5}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1c5941b15b47af92c02ff804a3cf32b6}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Delete\-Document\-Group@{Delete\-Document\-Group}}
+\index{Delete\-Document\-Group@{Delete\-Document\-Group}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Delete\-Document\-Group}]{\setlength{\rightskip}{0pt plus 5cm}int Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Delete\-Document\-Group (
+\begin{DoxyParamCaption}
+\item[{string}]{identifier}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a1c5941b15b47af92c02ff804a3cf32b6}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_a09a87b14d6f32e2b1754890a3e6ec925}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_abfdba02543cd8c770e50bbc615c448d9}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Get\-Identifier@{Get\-Identifier}}
+\index{Get\-Identifier@{Get\-Identifier}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Get\-Identifier}]{\setlength{\rightskip}{0pt plus 5cm}string Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Get\-Identifier (
+\begin{DoxyParamCaption}
+\item[{string}]{identifier}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_abfdba02543cd8c770e50bbc615c448d9}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_adcd061aba1f49458147a626059a0ab96}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+\hypertarget{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a99d495d6c3f61baf8729653467cd15ce}{\index{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}!Get\-Or\-Create\-Crawler\-Id@{Get\-Or\-Create\-Crawler\-Id}}
+\index{Get\-Or\-Create\-Crawler\-Id@{Get\-Or\-Create\-Crawler\-Id}!ServiceEUCases::Repositories::IRepository@{Service\-E\-U\-Cases\-::\-Repositories\-::\-I\-Repository}}
+\subsubsection[{Get\-Or\-Create\-Crawler\-Id}]{\setlength{\rightskip}{0pt plus 5cm}int Service\-E\-U\-Cases.\-Repositories.\-I\-Repository.\-Get\-Or\-Create\-Crawler\-Id (
+\begin{DoxyParamCaption}
+\item[{string}]{crawler\-Name}
+\end{DoxyParamCaption}
+)}}\label{interface_service_e_u_cases_1_1_repositories_1_1_i_repository_a99d495d6c3f61baf8729653467cd15ce}
+
+
+Implemented in \hyperlink{class_service_e_u_cases_1_1_repositories_1_1_db_repository_a381ff6dd92f7b5d581adbfd266b5d0b3}{Service\-E\-U\-Cases.\-Repositories.\-Db\-Repository}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+D\-:/\-Projects/\-E\-U\-C\-A\-S\-E\-S/\-Crawler\-Framework/\-Service\-E\-U\-Cases.\-Repositories/\hyperlink{_i_repository_8cs}{I\-Repository.\-cs}\end{DoxyCompactItemize}

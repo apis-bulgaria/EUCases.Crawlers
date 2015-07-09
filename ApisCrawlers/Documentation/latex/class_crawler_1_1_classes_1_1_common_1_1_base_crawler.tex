@@ -1,0 +1,155 @@
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler}{\section{Crawler.\-Classes.\-Common.\-Base\-Crawler Class Reference}
+\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler}\index{Crawler.\-Classes.\-Common.\-Base\-Crawler@{Crawler.\-Classes.\-Common.\-Base\-Crawler}}
+}
+
+
+Base \hyperlink{namespace_crawler}{Crawler} for all other crawlers. Implemet event fireing functionality  
+
+
+Inheritance diagram for Crawler.\-Classes.\-Common.\-Base\-Crawler\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_crawler_1_1_classes_1_1_common_1_1_base_crawler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a14b2a286ce7fb2899bd915dd345bf6b7}{Start} ()
+\begin{DoxyCompactList}\small\item\em starts the crawling process \end{DoxyCompactList}\item 
+string \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a38eaaddab528ed6793aae3eb88ce2f42}{Get\-Data\-Format} (string link)
+\begin{DoxyCompactList}\small\item\em Take as a value well formatted Uri and returns in the form of document format M\-I\-M\-E \end{DoxyCompactList}\item 
+virtual string \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a4172add0090fde65afe3f6b6d28f0077}{Get\-File\-Extension} (string path)
+\begin{DoxyCompactList}\small\item\em Take for value file or directory and return the name of the file without extension \end{DoxyCompactList}\item 
+virtual string \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a5b81bb161f495ea335d47be66060d69c}{Get\-File\-Name} (string path)
+\item 
+virtual string \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_aba8a07a3e0ea3b690e2da0dc48d6052e}{Clear\-File\-Name} (string file\-Name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a2777caf0dec6b2c6bd4f1218d28d83de}{Do\-On\-Doc\-Downloaded} (List$<$ \hyperlink{class_metainfo_e_u_cases_1_1_xml_document_meta_info}{Xml\-Document\-Meta\-Info} $>$ document, string folder)
+\begin{DoxyCompactList}\small\item\em This method is called for every download document from extenders \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Event\-Handler \hyperlink{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_ad619eb3cb32bf3b604975483370ae9c3}{On\-Doc\-Downloaded}
+\begin{DoxyCompactList}\small\item\em Implements Event\-Handler On\-Doc\-Downloaded see \hyperlink{interface_crawler_1_1_classes_1_1_common_1_1_i_crawler}{I\-Crawler} interface \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Base \hyperlink{namespace_crawler}{Crawler} for all other crawlers. Implemet event fireing functionality 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_aba8a07a3e0ea3b690e2da0dc48d6052e}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Clear\-File\-Name@{Clear\-File\-Name}}
+\index{Clear\-File\-Name@{Clear\-File\-Name}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Clear\-File\-Name}]{\setlength{\rightskip}{0pt plus 5cm}virtual string Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Clear\-File\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_aba8a07a3e0ea3b690e2da0dc48d6052e}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a2777caf0dec6b2c6bd4f1218d28d83de}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Do\-On\-Doc\-Downloaded@{Do\-On\-Doc\-Downloaded}}
+\index{Do\-On\-Doc\-Downloaded@{Do\-On\-Doc\-Downloaded}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Do\-On\-Doc\-Downloaded}]{\setlength{\rightskip}{0pt plus 5cm}void Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Do\-On\-Doc\-Downloaded (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Xml\-Document\-Meta\-Info} $>$}]{document, }
+\item[{string}]{folder}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a2777caf0dec6b2c6bd4f1218d28d83de}
+
+
+This method is called for every download document from extenders 
+
+
+\begin{DoxyParams}{Parameters}
+{\em document} & List of Document\-Meat\-Info objects\\
+\hline
+{\em folder} & Download folder for document\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a38eaaddab528ed6793aae3eb88ce2f42}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Get\-Data\-Format@{Get\-Data\-Format}}
+\index{Get\-Data\-Format@{Get\-Data\-Format}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Get\-Data\-Format}]{\setlength{\rightskip}{0pt plus 5cm}string Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Get\-Data\-Format (
+\begin{DoxyParamCaption}
+\item[{string}]{link}
+\end{DoxyParamCaption}
+)}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a38eaaddab528ed6793aae3eb88ce2f42}
+
+
+Take as a value well formatted Uri and returns in the form of document format M\-I\-M\-E 
+
+
+\begin{DoxyParams}{Parameters}
+{\em link} & Well formated Uri\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Internet media type format
+\end{DoxyReturn}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a4172add0090fde65afe3f6b6d28f0077}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Get\-File\-Extension@{Get\-File\-Extension}}
+\index{Get\-File\-Extension@{Get\-File\-Extension}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Get\-File\-Extension}]{\setlength{\rightskip}{0pt plus 5cm}virtual string Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Get\-File\-Extension (
+\begin{DoxyParamCaption}
+\item[{string}]{path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a4172add0090fde65afe3f6b6d28f0077}
+
+
+Take for value file or directory and return the name of the file without extension 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & File or Directory path information\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a5b81bb161f495ea335d47be66060d69c}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Get\-File\-Name@{Get\-File\-Name}}
+\index{Get\-File\-Name@{Get\-File\-Name}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Get\-File\-Name}]{\setlength{\rightskip}{0pt plus 5cm}virtual string Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Get\-File\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a5b81bb161f495ea335d47be66060d69c}
+
+
+Reimplemented in \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_case_law_judical_office_a35829eda8f98efb8fa64c3ec61e5e20a}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Case\-Law\-Judical\-Office}, and \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_case_law_supremecourt_a4b6555337af8eda1d030d6eb33e550e1}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Case\-Law\-Supremecourt}.
+
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a14b2a286ce7fb2899bd915dd345bf6b7}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!Start@{Start}}
+\index{Start@{Start}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Crawler.\-Classes.\-Common.\-Base\-Crawler.\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_a14b2a286ce7fb2899bd915dd345bf6b7}
+
+
+starts the crawling process 
+
+
+
+Implements \hyperlink{interface_crawler_1_1_classes_1_1_common_1_1_i_crawler_a5fabe437ecf6f494c75d6c79487b63ab}{Crawler.\-Classes.\-Common.\-I\-Crawler}.
+
+
+
+Implemented in \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_legislation_a09e9b181965e055ef411760f328f7599}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Legislation}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_f_r_1_1_legifrance_a3d1a250e24dd357558ee282670ec601b}{Crawler.\-Classes.\-Crawlers.\-F\-R.\-Legifrance}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_b_g_1_1_sac_government_a2ae15cb53f987fbdf4643b5937fa8cb2}{Crawler.\-Classes.\-Crawlers.\-B\-G.\-Sac\-Government}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundespatentgericht_a7185d1aecf109bfa9b34b7a66525e7b9}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundespatentgericht}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_a_t_1_1_ris_bka_a5ea8a638fe0a890b318cd9af4bc7d929}{Crawler.\-Classes.\-Crawlers.\-A\-T.\-Ris\-Bka}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_b_g_1_1_legalacts_justice_a68a8a4170fda98eeba5db7672a44ff2c}{Crawler.\-Classes.\-Crawlers.\-B\-G.\-Legalacts\-Justice}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundesverfassungsgericht_a27afd53b86cc443076a2efd8df3c2078}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundesverfassungsgericht}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bverwg_aeae6653df84bcb361985ff11a64d50ae}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bverwg}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_e_u_1_1_hudoc_echr_ab6245fbeeef27910776856916153dee2}{Crawler.\-Classes.\-Crawlers.\-E\-U.\-Hudoc\-Echr}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_case_law_ho_l_judgments_ad73a34652655a6a9891dc78e4f76265b}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Case\-Law\-Ho\-L\-Judgments}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_case_law_judical_office_adac917a75514264a01911cbf5476807a}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Case\-Law\-Judical\-Office}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_u_k_1_1_case_law_supremecourt_adb1a283c34de4cec5c098ba8978e5a3d}{Crawler.\-Classes.\-Crawlers.\-U\-K.\-Case\-Law\-Supremecourt}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_b_g_1_1_domino_vks_a0de93e8fa14dd68a0698b5e8530e2592}{Crawler.\-Classes.\-Crawlers.\-B\-G.\-Domino\-Vks}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_b_g_1_1_parliament_dv_a914bcf46a831a2d4e7e71362a5f8ed1c}{Crawler.\-Classes.\-Crawlers.\-B\-G.\-Parliament\-Dv}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_legislation_gesetze_ac4bfb29a94183afb5041949aad71d69e}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Legislation\-Gesetze}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundesarbeitsgericht_a3f0b91fd367fac005e6f3f11148e2e41}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundesarbeitsgericht}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_legislation_gesetze_govdata_a4b28d7fd1f22b7d070d21871d4337599}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Legislation\-Gesetze\-Govdata}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_legislation_verwalt_a5b4d573f0bfeb2968a806f8342a17c64}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Legislation\-Verwalt}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_legislation_verwalt_govdata_a5eecceedce63ecae49d8a19b810d578a}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Legislation\-Verwalt\-Govdata}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_e_u_1_1_curia_europa_a4b2e192e6a1ffeefd1c0b1dac642324f}{Crawler.\-Classes.\-Crawlers.\-E\-U.\-Curia\-Europa}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundesgerichtshof_a22394430f7cfb0ea4da214037fe61703}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundesgerichtshof}, \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundesfinanzhof_ad603e762fc8e22e2c86a027889fbf004}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundesfinanzhof}, and \hyperlink{class_crawler_1_1_classes_1_1_crawlers_1_1_d_e_1_1_bundessozialgericht_a629080a4171a5b06a46b05cfc8296d95}{Crawler.\-Classes.\-Crawlers.\-D\-E.\-Bundessozialgericht}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_ad619eb3cb32bf3b604975483370ae9c3}{\index{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}!On\-Doc\-Downloaded@{On\-Doc\-Downloaded}}
+\index{On\-Doc\-Downloaded@{On\-Doc\-Downloaded}!Crawler::Classes::Common::BaseCrawler@{Crawler\-::\-Classes\-::\-Common\-::\-Base\-Crawler}}
+\subsubsection[{On\-Doc\-Downloaded}]{\setlength{\rightskip}{0pt plus 5cm}Event\-Handler Crawler.\-Classes.\-Common.\-Base\-Crawler.\-On\-Doc\-Downloaded\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}}\label{class_crawler_1_1_classes_1_1_common_1_1_base_crawler_ad619eb3cb32bf3b604975483370ae9c3}
+
+
+Implements Event\-Handler On\-Doc\-Downloaded see \hyperlink{interface_crawler_1_1_classes_1_1_common_1_1_i_crawler}{I\-Crawler} interface 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+D\-:/\-Projects/\-E\-U\-C\-A\-S\-E\-S/\-Crawler\-Framework/\-Crawler\-E\-U\-Cases/\-Classes/\-Common/\hyperlink{_base_crawler_8cs}{Base\-Crawler.\-cs}\end{DoxyCompactItemize}

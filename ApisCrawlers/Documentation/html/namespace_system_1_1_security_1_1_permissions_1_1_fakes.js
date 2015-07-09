@@ -1,0 +1,10 @@
+var namespace_system_1_1_security_1_1_permissions_1_1_fakes =
+[
+    [ "StubCodeAccessSecurityAttribute", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_code_access_security_attribute.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_code_access_security_attribute" ],
+    [ "StubIUnrestrictedPermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_i_unrestricted_permission.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_i_unrestricted_permission" ],
+    [ "StubIsolatedStoragePermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission" ],
+    [ "StubIsolatedStoragePermissionAttribute", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission_attribute.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission_attribute" ],
+    [ "StubSecurityAttribute", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_security_attribute.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_security_attribute" ],
+    [ "StubResourcePermissionBase", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_resource_permission_base.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_resource_permission_base" ],
+    [ "StubResourcePermissionBaseEntry", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_resource_permission_base_entry.html", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_resource_permission_base_entry" ]
+];

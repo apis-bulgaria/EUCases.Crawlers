@@ -1,0 +1,4 @@
+var namespace_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_fakes =
+[
+    [ "StubSoapAttribute", "class_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_fakes_1_1_stub_soap_attribute.html", "class_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_fakes_1_1_stub_soap_attribute" ]
+];

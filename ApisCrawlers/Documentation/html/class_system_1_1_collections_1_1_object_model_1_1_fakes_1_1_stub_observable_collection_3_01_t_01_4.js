@@ -1,0 +1,27 @@
+var class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4 =
+[
+    [ "StubObservableCollection", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#ac7065e7c11f4a0a9c6ad446d8aabb179", null ],
+    [ "StubObservableCollection", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a531aef8c250ae83e12889bf63d22860d", null ],
+    [ "StubObservableCollection", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aa6844a9d480e46b7ef3732ba704e2426", null ],
+    [ "ClearItems", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a09bb744b299385dd15380cd3cc73af2d", null ],
+    [ "InsertItem", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a1f191af99251fb5283608e2cb3e27a0a", null ],
+    [ "MoveItem", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a9a9997ae17c56e43ed96a76e3d1ddd06", null ],
+    [ "OnCollectionChanged", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a431969efd014e34e74760349b6686d3d", null ],
+    [ "OnPropertyChanged", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a04e9426fcc2a76d42fa343e1630f0c72", null ],
+    [ "RemoveItem", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a424e18cfe2c1913d22b1e1748a622822", null ],
+    [ "SetItem", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a3b9b7de8480c4f26569b00c87dba7505", null ],
+    [ "ClearItems01", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aecafbbb765d456e5e58815518af365d9", null ],
+    [ "CollectionChangedEvent", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a1c9704046b1fd58ff8088c70534b4f0c", null ],
+    [ "InsertItemInt32T0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aef25a00a01d4287edaa8471d7aa97264", null ],
+    [ "MoveItemInt32Int32", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a2a17254ba69ee3035a7e7c6e8acfdc0c", null ],
+    [ "OnCollectionChangedNotifyCollectionChangedEventArgs", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#af1f62d144b4248f0f9317b076f1d4677", null ],
+    [ "OnPropertyChangedPropertyChangedEventArgs", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a1645eb000c3f84647ccb69474e48811d", null ],
+    [ "PropertyChangedEvent", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a8a08998d262ff0bf0a6c322c7b38bf1c", null ],
+    [ "RemoveItemInt32", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aff4ad57067ce20177fc7ca4db6a4b80f", null ],
+    [ "SetItemInt32T0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#abc1342da426c3f1435f43a3448566827", null ],
+    [ "CallBase", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#ac4f4b22c6a3f92bc29eb4119ccd3fdbe", null ],
+    [ "CollectionChanged", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a387157f86053dc42fa70e43492802296", null ],
+    [ "InstanceBehavior", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aae4ac23e2187cae1dfe0f913ec680139", null ],
+    [ "InstanceObserver", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#a045ed738bd66a15412e373ce3e5e32e4", null ],
+    [ "PropertyChanged", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html#aafdc8d23c06e03566caddcb68d5b9416", null ]
+];

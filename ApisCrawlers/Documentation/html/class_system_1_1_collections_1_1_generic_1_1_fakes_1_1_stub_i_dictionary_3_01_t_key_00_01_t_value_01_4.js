@@ -1,0 +1,26 @@
+var class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4 =
+[
+    [ "StubIDictionary", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#abcf496dbadcf48f153e41d41e612e036", null ],
+    [ "AddKeyValuePairOfT0T1", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a50387b80519c420b78cc030fb6c2a9dd", null ],
+    [ "AddT0T1", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#aa20d657a60f5a11654955164e0560496", null ],
+    [ "Clear", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#aa29d12e82c2c4698d0556760ce98de2b", null ],
+    [ "ContainsKeyT0", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a13089f5d838060ec29a16d3d88f307b0", null ],
+    [ "ContainsKeyValuePairOfT0T1", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#abfb262ea0260154a9ef91fd321b2b46a", null ],
+    [ "CopyToKeyValuePairOfT0T1ArrayInt32", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#aca5bb22399a133c03eb8426e329983c0", null ],
+    [ "CountGet", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#aa17f4c7cc3994b00dc7ee67fac73754b", null ],
+    [ "GetEnumerator", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a13b79991b9dc339f20f79b3454b35356", null ],
+    [ "GetEnumerator01", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a721781bbf2fc1fca79be7004d20decb8", null ],
+    [ "IsReadOnlyGet", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#ad187a35b710736b66b7cc14bdf29b7e8", null ],
+    [ "ItemGetT0", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#aa799f4d9a47df00de5da34360beed839", null ],
+    [ "ItemSetT0T1", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a2271bb7b5e25bcc3b8e2731342e2a358", null ],
+    [ "KeysGet", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#acca6cc891ade76fa2bffa664d552d3fe", null ],
+    [ "RemoveKeyValuePairOfT0T1", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a00f3d0d0e92599c951a8aa1f05a9cc35", null ],
+    [ "RemoveT0", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a53ca83be681c7d93d1f29f0c2376e0f7", null ],
+    [ "TryGetValueT0T1Out", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a27d266d4de2ffca8a220cbe290439e23", null ],
+    [ "ValuesGet", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#af4495208498b1b85f0bf84d48ed5926d", null ],
+    [ "Count", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#ac12ba38d22e0bd69bd245801f065434a", null ],
+    [ "IsReadOnly", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a93aa8f1f68b140a41bd062dc9d3864ca", null ],
+    [ "Keys", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#ae118ff37259e0fe8e4b1ef18fdf979ae", null ],
+    [ "this[TKey key]", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#afc88f63dcfa1ec0b1c718b454f437e36", null ],
+    [ "Values", "class_system_1_1_collections_1_1_generic_1_1_fakes_1_1_stub_i_dictionary_3_01_t_key_00_01_t_value_01_4.html#a2e16cfdc31f80e158abc60fa8893a168", null ]
+];

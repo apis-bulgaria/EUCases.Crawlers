@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CrawlerFrameworkModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CrawlerLogs">
+          <Key>
+            <PropertyRef Name="CrawlerLogId" />
+          </Key>
+          <Property Name="CrawlerLogId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="LogDate" Type="datetime2" Precision="7" />
+          <Property Name="IpAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="MetaXml" Type="nvarchar(max)" />
+          <Property Name="ZipLength" Type="int" />
+          <Property Name="Operation" Type="int" />
+          <Property Name="IsSuccess" Type="bit" />
+          <Property Name="Error" Type="nvarchar(max)" />
+          <Property Name="CrawlerName" Type="nvarchar" MaxLength="300" />
+          <Property Name="Identifier" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Crawlers">
+          <Key>
+            <PropertyRef Name="CrawlerId" />
+          </Key>
+          <Property Name="CrawlerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CrawlerName" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="DocumentGroups">
+          <Key>
+            <PropertyRef Name="DocumentGroupId" />
+          </Key>
+          <Property Name="DocumentGroupId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DocumentGroupDate" Type="nvarchar" MaxLength="100" />
+          <Property Name="Lang" Type="nvarchar" MaxLength="50" />
+          <Property Name="GroupType" Type="int" />
+          <Property Name="DocumentGroupFormat" Type="nvarchar" MaxLength="100" />
+          <Property Name="DocumentGroupName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Identifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" />
+          <Property Name="DataContent" Type="varbinary(max)" />
+          <Property Name="CrawlerId" Type="int" />
+        </EntityType>
+        <EntityType Name="Documents">
+          <Key>
+            <PropertyRef Name="DocumentId" />
+          </Key>
+          <Property Name="DocumentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DocumentFormat" Type="nvarchar" MaxLength="100" />
+          <Property Name="DocumentName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Identifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" />
+          <Property Name="Url" Type="nvarchar(max)" />
+          <Property Name="Md5" Type="nvarchar" MaxLength="50" />
+          <Property Name="DataContent" Type="varbinary(max)" />
+          <Property Name="DocumentOrder" Type="int" />
+          <Property Name="DocumentGroupId" Type="int" />
+        </EntityType>
+        <Association Name="fk_DocumentGroups_Crawlers">
+          <End Role="Crawlers" Type="Self.Crawlers" Multiplicity="0..1" />
+          <End Role="DocumentGroups" Type="Self.DocumentGroups" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Crawlers">
+              <PropertyRef Name="CrawlerId" />
+            </Principal>
+            <Dependent Role="DocumentGroups">
+              <PropertyRef Name="CrawlerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Documents_DocumentGroups">
+          <End Role="DocumentGroups" Type="Self.DocumentGroups" Multiplicity="0..1" />
+          <End Role="Documents" Type="Self.Documents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocumentGroups">
+              <PropertyRef Name="DocumentGroupId" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="DocumentGroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="p_DeleteDocumentGroup" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="identifier" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <EntityContainer Name="CrawlerFrameworkModelStoreContainer">
+          <EntitySet Name="CrawlerLogs" EntityType="Self.CrawlerLogs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Crawlers" EntityType="Self.Crawlers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DocumentGroups" EntityType="Self.DocumentGroups" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Documents" EntityType="Self.Documents" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_DocumentGroups_Crawlers" Association="Self.fk_DocumentGroups_Crawlers">
+            <End Role="Crawlers" EntitySet="Crawlers" />
+            <End Role="DocumentGroups" EntitySet="DocumentGroups" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Documents_DocumentGroups" Association="Self.fk_Documents_DocumentGroups">
+            <End Role="DocumentGroups" EntitySet="DocumentGroups" />
+            <End Role="Documents" EntitySet="Documents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CrawlerFrameworkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CrawlerFrameworkEntities" annotation:LazyLoadingEnabled="true">
+          <FunctionImport Name="p_DeleteDocumentGroup">
+          <Parameter Name="identifier" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="Crawlers" EntityType="CrawlerFrameworkModel.Crawler" />
+          <EntitySet Name="DocumentGroups" EntityType="CrawlerFrameworkModel.DocumentGroup" />
+          <EntitySet Name="Documents" EntityType="CrawlerFrameworkModel.Document" />
+          <AssociationSet Name="fk_DocumentGroups_Crawlers" Association="CrawlerFrameworkModel.fk_DocumentGroups_Crawlers">
+            <End Role="Crawler" EntitySet="Crawlers" />
+            <End Role="DocumentGroup" EntitySet="DocumentGroups" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Documents_DocumentGroups" Association="CrawlerFrameworkModel.fk_Documents_DocumentGroups">
+            <End Role="DocumentGroup" EntitySet="DocumentGroups" />
+            <End Role="Document" EntitySet="Documents" />
+          </AssociationSet>
+          <EntitySet Name="CrawlerLogs" EntityType="CrawlerFrameworkModel.CrawlerLog" />
+        </EntityContainer>
+        <EntityType Name="Crawler">
+          <Key>
+            <PropertyRef Name="CrawlerId" />
+          </Key>
+          <Property Name="CrawlerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CrawlerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="DocumentGroups" Relationship="CrawlerFrameworkModel.fk_DocumentGroups_Crawlers" FromRole="Crawler" ToRole="DocumentGroup" />
+        </EntityType>
+        <EntityType Name="DocumentGroup">
+          <Key>
+            <PropertyRef Name="DocumentGroupId" />
+          </Key>
+          <Property Name="DocumentGroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DocumentGroupDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Lang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="GroupType" Type="Int32" />
+          <Property Name="DocumentGroupFormat" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentGroupName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Identifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" />
+          <Property Name="DataContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="CrawlerId" Type="Int32" />
+          <NavigationProperty Name="Crawler" Relationship="CrawlerFrameworkModel.fk_DocumentGroups_Crawlers" FromRole="DocumentGroup" ToRole="Crawler" />
+          <NavigationProperty Name="Documents" Relationship="CrawlerFrameworkModel.fk_Documents_DocumentGroups" FromRole="DocumentGroup" ToRole="Document" />
+        </EntityType>
+        <EntityType Name="Document">
+          <Key>
+            <PropertyRef Name="DocumentId" />
+          </Key>
+          <Property Name="DocumentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DocumentFormat" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Identifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" />
+          <Property Name="Url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Md5" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DataContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="DocumentOrder" Type="Int32" />
+          <Property Name="DocumentGroupId" Type="Int32" />
+          <NavigationProperty Name="DocumentGroup" Relationship="CrawlerFrameworkModel.fk_Documents_DocumentGroups" FromRole="Document" ToRole="DocumentGroup" />
+        </EntityType>
+        <Association Name="fk_DocumentGroups_Crawlers">
+          <End Type="CrawlerFrameworkModel.Crawler" Role="Crawler" Multiplicity="0..1" />
+          <End Type="CrawlerFrameworkModel.DocumentGroup" Role="DocumentGroup" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Crawler">
+              <PropertyRef Name="CrawlerId" />
+            </Principal>
+            <Dependent Role="DocumentGroup">
+              <PropertyRef Name="CrawlerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Documents_DocumentGroups">
+          <End Type="CrawlerFrameworkModel.DocumentGroup" Role="DocumentGroup" Multiplicity="0..1" />
+          <End Type="CrawlerFrameworkModel.Document" Role="Document" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocumentGroup">
+              <PropertyRef Name="DocumentGroupId" />
+            </Principal>
+            <Dependent Role="Document">
+              <PropertyRef Name="DocumentGroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="CrawlerLog">
+          <Key>
+            <PropertyRef Name="CrawlerLogId" />
+          </Key>
+          <Property Name="CrawlerLogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LogDate" Type="DateTime" Precision="7" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MetaXml" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ZipLength" Type="Int32" />
+          <Property Name="Operation" Type="Int32" />
+          <Property Name="IsSuccess" Type="Boolean" />
+          <Property Name="Error" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CrawlerName" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="Identifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CrawlerFrameworkModelStoreContainer" CdmEntityContainer="CrawlerFrameworkEntities">
+          <FunctionImportMapping FunctionImportName="p_DeleteDocumentGroup" FunctionName="CrawlerFrameworkModel.Store.p_DeleteDocumentGroup" />
+          <EntitySetMapping Name="Crawlers">
+            <EntityTypeMapping TypeName="CrawlerFrameworkModel.Crawler">
+              <MappingFragment StoreEntitySet="Crawlers">
+                <ScalarProperty Name="CrawlerName" ColumnName="CrawlerName" />
+                <ScalarProperty Name="CrawlerId" ColumnName="CrawlerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DocumentGroups">
+            <EntityTypeMapping TypeName="CrawlerFrameworkModel.DocumentGroup">
+              <MappingFragment StoreEntitySet="DocumentGroups">
+                <ScalarProperty Name="CrawlerId" ColumnName="CrawlerId" />
+                <ScalarProperty Name="DataContent" ColumnName="DataContent" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+                <ScalarProperty Name="DocumentGroupName" ColumnName="DocumentGroupName" />
+                <ScalarProperty Name="DocumentGroupFormat" ColumnName="DocumentGroupFormat" />
+                <ScalarProperty Name="GroupType" ColumnName="GroupType" />
+                <ScalarProperty Name="Lang" ColumnName="Lang" />
+                <ScalarProperty Name="DocumentGroupDate" ColumnName="DocumentGroupDate" />
+                <ScalarProperty Name="DocumentGroupId" ColumnName="DocumentGroupId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Documents">
+            <EntityTypeMapping TypeName="CrawlerFrameworkModel.Document">
+              <MappingFragment StoreEntitySet="Documents">
+                <ScalarProperty Name="DocumentGroupId" ColumnName="DocumentGroupId" />
+                <ScalarProperty Name="DocumentOrder" ColumnName="DocumentOrder" />
+                <ScalarProperty Name="DataContent" ColumnName="DataContent" />
+                <ScalarProperty Name="Md5" ColumnName="Md5" />
+                <ScalarProperty Name="Url" ColumnName="Url" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+                <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+                <ScalarProperty Name="DocumentFormat" ColumnName="DocumentFormat" />
+                <ScalarProperty Name="DocumentId" ColumnName="DocumentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CrawlerLogs">
+            <EntityTypeMapping TypeName="CrawlerFrameworkModel.CrawlerLog">
+              <MappingFragment StoreEntitySet="CrawlerLogs">
+                <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+                <ScalarProperty Name="CrawlerName" ColumnName="CrawlerName" />
+                <ScalarProperty Name="Error" ColumnName="Error" />
+                <ScalarProperty Name="IsSuccess" ColumnName="IsSuccess" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="ZipLength" ColumnName="ZipLength" />
+                <ScalarProperty Name="MetaXml" ColumnName="MetaXml" />
+                <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+                <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+                <ScalarProperty Name="CrawlerLogId" ColumnName="CrawlerLogId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

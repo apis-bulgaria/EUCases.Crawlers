@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SQLiteCrawlerDataModel.Store" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DocumentGroups">
+          <Key>
+            <PropertyRef Name="DocumentGroupId" />
+          </Key>
+          <Property Name="DocumentGroupId" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DocumentGroupDate" Type="nvarchar" MaxLength="100" />
+          <Property Name="DocumentGroupName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Identifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" />
+        </EntityType>
+        <EntityType Name="Documents">
+          <Key>
+            <PropertyRef Name="DocumentId" />
+          </Key>
+          <Property Name="DocumentId" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DocumentFormat" Type="nvarchar" MaxLength="100" />
+          <Property Name="DocumentName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Identifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" />
+          <Property Name="Url" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Md5" Type="nvarchar" MaxLength="50" />
+          <Property Name="DocumentGroupId" Type="integer" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Documents_0_0">
+          <End Role="DocumentGroups" Type="Self.DocumentGroups" Multiplicity="1" />
+          <End Role="Documents" Type="Self.Documents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocumentGroups">
+              <PropertyRef Name="DocumentGroupId" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="DocumentGroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SQLiteCrawlerDataModelStoreContainer">
+          <EntitySet Name="DocumentGroups" EntityType="Self.DocumentGroups" store:Type="Tables" />
+          <EntitySet Name="Documents" EntityType="Self.Documents" store:Type="Tables" />
+          <AssociationSet Name="FK_Documents_0_0" Association="Self.FK_Documents_0_0">
+            <End Role="DocumentGroups" EntitySet="DocumentGroups" />
+            <End Role="Documents" EntitySet="Documents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQLiteCrawlerDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DocumentGroup">
+          <Key>
+            <PropertyRef Name="DocumentGroupId" />
+          </Key>
+          <Property Name="DocumentGroupId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DocumentGroupDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentGroupName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Identifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" />
+          <NavigationProperty Name="Documents" Relationship="Self.FK_Documents_0_0" FromRole="DocumentGroups" ToRole="Documents" />
+        </EntityType>
+        <EntityType Name="Document">
+          <Key>
+            <PropertyRef Name="DocumentId" />
+          </Key>
+          <Property Name="DocumentId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DocumentFormat" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Identifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" />
+          <Property Name="Url" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Md5" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DocumentGroupId" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="DocumentGroup" Relationship="Self.FK_Documents_0_0" FromRole="Documents" ToRole="DocumentGroups" />
+        </EntityType>
+        <Association Name="FK_Documents_0_0">
+          <End Role="DocumentGroups" Type="Self.DocumentGroup" Multiplicity="1" />
+          <End Role="Documents" Type="Self.Document" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocumentGroups">
+              <PropertyRef Name="DocumentGroupId" />
+            </Principal>
+            <Dependent Role="Documents">
+              <PropertyRef Name="DocumentGroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SQLiteCrawlerDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DocumentGroups" EntityType="Self.DocumentGroup" />
+          <EntitySet Name="Documents" EntityType="Self.Document" />
+          <AssociationSet Name="FK_Documents_0_0" Association="Self.FK_Documents_0_0">
+            <End Role="DocumentGroups" EntitySet="DocumentGroups" />
+            <End Role="Documents" EntitySet="Documents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQLiteCrawlerDataModelStoreContainer" CdmEntityContainer="SQLiteCrawlerDataEntities">
+          <EntitySetMapping Name="DocumentGroups">
+            <EntityTypeMapping TypeName="SQLiteCrawlerDataModel.DocumentGroup">
+              <MappingFragment StoreEntitySet="DocumentGroups">
+                <ScalarProperty Name="DocumentGroupId" ColumnName="DocumentGroupId" />
+                <ScalarProperty Name="DocumentGroupDate" ColumnName="DocumentGroupDate" />
+                <ScalarProperty Name="DocumentGroupName" ColumnName="DocumentGroupName" />
+                <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Documents">
+            <EntityTypeMapping TypeName="SQLiteCrawlerDataModel.Document">
+              <MappingFragment StoreEntitySet="Documents">
+                <ScalarProperty Name="DocumentId" ColumnName="DocumentId" />
+                <ScalarProperty Name="DocumentFormat" ColumnName="DocumentFormat" />
+                <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+                <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Url" ColumnName="Url" />
+                <ScalarProperty Name="Md5" ColumnName="Md5" />
+                <ScalarProperty Name="DocumentGroupId" ColumnName="DocumentGroupId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

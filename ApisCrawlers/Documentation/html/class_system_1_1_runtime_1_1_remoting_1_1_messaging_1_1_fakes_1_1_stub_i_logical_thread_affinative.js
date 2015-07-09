@@ -1,0 +1,4 @@
+var class_system_1_1_runtime_1_1_remoting_1_1_messaging_1_1_fakes_1_1_stub_i_logical_thread_affinative =
+[
+    [ "StubILogicalThreadAffinative", "class_system_1_1_runtime_1_1_remoting_1_1_messaging_1_1_fakes_1_1_stub_i_logical_thread_affinative.html#a06b98513ea29433e1d55d6d7f04af3ee", null ]
+];

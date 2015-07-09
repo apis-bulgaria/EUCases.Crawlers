@@ -1,0 +1,25 @@
+var class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information =
+[
+    [ "StubMulticastIPAddressInformation", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#aad8e63edf9749e1e8ddfcb06638ba249", null ],
+    [ "AddressGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#ae1a3769cede82dc0372388ea52785c37", null ],
+    [ "AddressPreferredLifetimeGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a896c7a33c99720be49dcd21db17f0f2e", null ],
+    [ "AddressValidLifetimeGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a99ec36a79f503e67b0bd8b1f383fe56f", null ],
+    [ "DhcpLeaseLifetimeGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#acd465f43a526ba33b00d37da8e61f489", null ],
+    [ "DuplicateAddressDetectionStateGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#acc9622c5e5fac32148960259eaad26f5", null ],
+    [ "IsDnsEligibleGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a26e8dcf64f56c435514c7f6b836c2a93", null ],
+    [ "IsTransientGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a19669a4a746f4888c71ca2fb47b4e53f", null ],
+    [ "PrefixOriginGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a425159652cdc15d3ef9cc56569812d5c", null ],
+    [ "SuffixOriginGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a1d0c7639b38005a2b592f2842265cc9b", null ],
+    [ "Address", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a29125a43242aa4421e59f5ac2e7a1e01", null ],
+    [ "AddressPreferredLifetime", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#ad01afece4719458dd3406b3ea0f94cf9", null ],
+    [ "AddressValidLifetime", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a08c2805c9dc550be761f7e4fab4e9aa3", null ],
+    [ "CallBase", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#ae23ad75a81dfe6dc456915eb8ca9d070", null ],
+    [ "DhcpLeaseLifetime", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a69d5d73a1699d77278794f055295dac6", null ],
+    [ "DuplicateAddressDetectionState", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#aaa7ecf4fd62bd8b2d243a9ad42fa4c45", null ],
+    [ "InstanceBehavior", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#aaa03823de0da1b84309db32ce141c21e", null ],
+    [ "InstanceObserver", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#ad0c5a616af5741786c64853d49b1b710", null ],
+    [ "IsDnsEligible", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a8be66a4bed7f6372fc3e5913f6cb5384", null ],
+    [ "IsTransient", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#ae893cddc2b1b269241a85cefb2aeaecd", null ],
+    [ "PrefixOrigin", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a3bd050dc4ed8a8117a240bc54f2078c2", null ],
+    [ "SuffixOrigin", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information.html#a6a1aab8a43e1d64462f87645f8688cb9", null ]
+];

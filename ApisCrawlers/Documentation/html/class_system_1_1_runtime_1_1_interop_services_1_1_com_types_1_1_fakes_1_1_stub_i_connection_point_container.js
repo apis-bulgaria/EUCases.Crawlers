@@ -1,0 +1,6 @@
+var class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_connection_point_container =
+[
+    [ "StubIConnectionPointContainer", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_connection_point_container.html#a3bf8881692b5554525175c5c6aad2d91", null ],
+    [ "EnumConnectionPointsIEnumConnectionPointsOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_connection_point_container.html#a806d4cd6d562ad172c28c9a7ce199e87", null ],
+    [ "FindConnectionPointGuidRefIConnectionPointOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_connection_point_container.html#a03a7ef2ae9962aab07b9c33bacbaf873", null ]
+];

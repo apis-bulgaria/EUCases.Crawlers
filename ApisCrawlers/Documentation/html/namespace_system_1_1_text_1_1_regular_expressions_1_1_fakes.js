@@ -1,0 +1,8 @@
+var namespace_system_1_1_text_1_1_regular_expressions_1_1_fakes =
+[
+    [ "StubRegex", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex.html", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex" ],
+    [ "StubRegexCompilationInfo", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_compilation_info.html", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_compilation_info" ],
+    [ "StubRegexMatchTimeoutException", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_match_timeout_exception.html", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_match_timeout_exception" ],
+    [ "StubRegexRunner", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_runner.html", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_runner" ],
+    [ "StubRegexRunnerFactory", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_runner_factory.html", "class_system_1_1_text_1_1_regular_expressions_1_1_fakes_1_1_stub_regex_runner_factory" ]
+];

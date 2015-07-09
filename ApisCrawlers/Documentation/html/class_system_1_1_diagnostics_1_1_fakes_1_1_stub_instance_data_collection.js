@@ -1,0 +1,27 @@
+var class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection =
+[
+    [ "StubInstanceDataCollection", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#abe6ac6827d71b340b0d9c418d0ae6ee4", null ],
+    [ "OnClear", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a1a05164e201f9a3f1a73df8c33e2c4e9", null ],
+    [ "OnClearComplete", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a8846ea8f10dc625a1c07a7e8463519c6", null ],
+    [ "OnGet", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a4de5c080585fe74e0bef007a33286cae", null ],
+    [ "OnInsert", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a4100c07aa5a132cb57bfcfb4b5508e7d", null ],
+    [ "OnInsertComplete", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a8de1ae9d42587eefa4a22a7761c43a96", null ],
+    [ "OnRemove", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#ae390b8366c1f4e28961eba438c44cedf", null ],
+    [ "OnRemoveComplete", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a6ae8e1979116a1fc6eae830902b55ef9", null ],
+    [ "OnSet", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a7c14f6ac3cb49d53295e61989c84c68f", null ],
+    [ "OnSetComplete", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a7abac4390f68270532850c8e7efbd3b8", null ],
+    [ "OnValidate", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a49ff4e0401f41b9c63d955b07597c115", null ],
+    [ "OnClear01", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a94fd23911776342ae38558d55de15df6", null ],
+    [ "OnClearComplete01", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a40d83b7338488c88c14b9773949305fa", null ],
+    [ "OnGetObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a345956f480224d88b24b500d3502a1ae", null ],
+    [ "OnInsertCompleteObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a5e9f19c9857a3a9276a89c57965966d3", null ],
+    [ "OnInsertObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a9b214c09e6945196ed0957f3f7219437", null ],
+    [ "OnRemoveCompleteObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a81db9cfd9f96894fb3e51f3581275031", null ],
+    [ "OnRemoveObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#adbccd3753402d137819c7e1769aa7c19", null ],
+    [ "OnSetCompleteObjectObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#aef9dc83b6d840b34321c0d386049a05b", null ],
+    [ "OnSetObjectObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#ac07c09bf893ba5dc0928d335f1fdcc5b", null ],
+    [ "OnValidateObjectObject", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a3fcd173fb1d4fb0f4b09bfc4a34bb1ec", null ],
+    [ "CallBase", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#ae808bcdb2b63f9dfc1de33f9452c1da3", null ],
+    [ "InstanceBehavior", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#a19c1b35e230c02926bd35cc7d6781e80", null ],
+    [ "InstanceObserver", "class_system_1_1_diagnostics_1_1_fakes_1_1_stub_instance_data_collection.html#aa2a38ab83ce764456aa5d4a0eb94edcb", null ]
+];

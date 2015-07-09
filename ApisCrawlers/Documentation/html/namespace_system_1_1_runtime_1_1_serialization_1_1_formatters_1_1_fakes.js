@@ -1,0 +1,6 @@
+var namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes =
+[
+    [ "StubIFieldInfo", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_field_info.html", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_field_info" ],
+    [ "StubISoapMessage", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message.html", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_i_soap_message" ],
+    [ "StubSoapMessage", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_soap_message.html", "class_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_fakes_1_1_stub_soap_message" ]
+];

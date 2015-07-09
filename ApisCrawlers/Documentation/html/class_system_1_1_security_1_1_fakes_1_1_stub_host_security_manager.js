@@ -1,0 +1,27 @@
+var class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager =
+[
+    [ "StubHostSecurityManager", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#aee7f197fd3ea2df876982ff277f24140", null ],
+    [ "DetermineApplicationTrust", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a018fb05c90120a574773af935141d211", null ],
+    [ "GenerateAppDomainEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#af810a83be8a06659774a9da5d68bd641", null ],
+    [ "GenerateAssemblyEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a8a4257211933a7bd9b2a6e3aa1eef018", null ],
+    [ "GetHostSuppliedAppDomainEvidenceTypes", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a466f6fee524b1cc9ffa3f8e5c3e6c453", null ],
+    [ "GetHostSuppliedAssemblyEvidenceTypes", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#af9335da5c92f3f920ccef52457a0aa67", null ],
+    [ "ProvideAppDomainEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a6a946ab1df3d8a860d0fa24f4ece7b59", null ],
+    [ "ProvideAssemblyEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#adaa7f201358faa5b1153ba2db52c5525", null ],
+    [ "ResolvePolicy", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#aebd9b66b2f8f41c8d67a54e73f1b75bb", null ],
+    [ "DetermineApplicationTrustEvidenceEvidenceTrustManagerContext", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a1718add9dc02d9df8b1a7dcad6a16930", null ],
+    [ "DomainPolicyGet", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a3608d0b2f3e10099368873287d7c522b", null ],
+    [ "FlagsGet", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ae95a91bb97c0449204c601b9447e7e72", null ],
+    [ "GenerateAppDomainEvidenceType", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a4e2e0b2835efa9fdf61ba91af1927a30", null ],
+    [ "GenerateAssemblyEvidenceTypeAssembly", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ab61b5e39c9dbfff17a68a597c1768358", null ],
+    [ "GetHostSuppliedAppDomainEvidenceTypes01", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#af629183711a0636a6cd6bbbb407f1fef", null ],
+    [ "GetHostSuppliedAssemblyEvidenceTypesAssembly", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ad73a3e7cc9e430119b42b1c239849c07", null ],
+    [ "ProvideAppDomainEvidenceEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a11ef74d226b399cdf912f34c920184b9", null ],
+    [ "ProvideAssemblyEvidenceAssemblyEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ad822d1ab22c9646cd47a9d793b9e7ca7", null ],
+    [ "ResolvePolicyEvidence", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ac2e86820e6d815a5a87bf78ff6770d59", null ],
+    [ "CallBase", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#aecef38ec41818f1e2f150bc37762e745", null ],
+    [ "DomainPolicy", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#ac3b130d914d080ec8638d75eaf1cdd08", null ],
+    [ "Flags", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a1de097aee42b9b228654efed758bc459", null ],
+    [ "InstanceBehavior", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#aca1358a3fdc6bcbaac93e4b5616a0cfe", null ],
+    [ "InstanceObserver", "class_system_1_1_security_1_1_fakes_1_1_stub_host_security_manager.html#a2d4010cc76435c6f54da67d1a8be3dbc", null ]
+];

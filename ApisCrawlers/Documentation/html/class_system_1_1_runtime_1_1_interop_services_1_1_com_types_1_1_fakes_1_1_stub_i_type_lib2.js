@@ -1,0 +1,28 @@
+var class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2 =
+[
+    [ "StubITypeLib2", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a30116c21002c25d87b5ba841a2044e06", null ],
+    [ "FindNameStringInt32ITypeInfoArrayInt32ArrayInt16Ref", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#ae27d40f00a6af2b5b06d48bfc306adaf", null ],
+    [ "FindNameStringInt32ITypeInfoArrayInt32ArrayInt16Ref01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#ac8bc0ab4fea0103c16911c0d74f75085", null ],
+    [ "GetAllCustDataIntPtr", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#aa94a84cd2761058892521b6670909eb8", null ],
+    [ "GetCustDataGuidRefObjectOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a33a84f4d6a10f3025ff9ec92c22d6b82", null ],
+    [ "GetDocumentation2Int32StringOutInt32OutStringOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a7d2f469b075e994077db9c50431facb7", null ],
+    [ "GetDocumentationInt32StringOutStringOutInt32OutStringOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#adbdf83c261ca463784a7db29d7c7ac32", null ],
+    [ "GetDocumentationInt32StringOutStringOutInt32OutStringOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a48da2e5684075d66488e9fd653ac1f00", null ],
+    [ "GetLibAttrIntPtrOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#ae454fd215401519c4d75246ae345860b", null ],
+    [ "GetLibAttrIntPtrOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#aae81e4fc1d620b20720fa9ca284ffc1e", null ],
+    [ "GetLibStatisticsIntPtrInt32Out", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a6bbf4d11dc71edb769b78efe8b640dd6", null ],
+    [ "GetTypeCompITypeCompOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a0fb22c311adafff89de3c085499c76dd", null ],
+    [ "GetTypeCompITypeCompOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a9aed2c9872fd7d8eaa55c04a99b35c4d", null ],
+    [ "GetTypeInfoCount", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#ac944dc7d2acce2453e1209744b1cf07b", null ],
+    [ "GetTypeInfoCount01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a5d332668107e8602b0138dc1eaceccba", null ],
+    [ "GetTypeInfoInt32ITypeInfoOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#afc4e6a7988caf99090527a460809b120", null ],
+    [ "GetTypeInfoInt32ITypeInfoOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a8a9564cc07f25e773848d2dd2773b1d6", null ],
+    [ "GetTypeInfoOfGuidGuidRefITypeInfoOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a7cb891c2141b6405b30ee94787b50942", null ],
+    [ "GetTypeInfoOfGuidGuidRefITypeInfoOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a60d5570ab1f603d9026b4962d930573d", null ],
+    [ "GetTypeInfoTypeInt32TYPEKINDOut", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#ae89a898f9998673092525e0330987c91", null ],
+    [ "GetTypeInfoTypeInt32TYPEKINDOut01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a86c49d425878e0ebd1c5f5f68f13d4cc", null ],
+    [ "IsNameStringInt32", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a0891ef94b17fd0c1e78df3d76487dfb5", null ],
+    [ "IsNameStringInt3201", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a6cb7a7e7ed9982cdefcac7b39c635d9c", null ],
+    [ "ReleaseTLibAttrIntPtr", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a60a2f2b95cb8cf899e6c55534ecd9a2b", null ],
+    [ "ReleaseTLibAttrIntPtr01", "class_system_1_1_runtime_1_1_interop_services_1_1_com_types_1_1_fakes_1_1_stub_i_type_lib2.html#a4eab827ae7e303283dee60417720c7d4", null ]
+];

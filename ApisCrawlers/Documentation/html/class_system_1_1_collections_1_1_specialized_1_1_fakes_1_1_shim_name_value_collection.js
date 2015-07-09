@@ -1,0 +1,27 @@
+var class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection =
+[
+    [ "ShimNameValueCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a7bb617c3d0b96eeccbc2632d4d621706", null ],
+    [ "ShimNameValueCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a50b594e9aa607df3b9cd9abfe75de9cb", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#afa18f4a69308b5c59301353b122ee03e", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a0b3364ab460feaa9695c0a9082658605", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#acdae1966a5f4315fd4596b00afb22c9f", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a76410892c9ed67e0b6afd5e14f2ddb7f", null ],
+    [ "AddNameValueCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a87e4e2b920558c0934a3d0c88d0f5fdb", null ],
+    [ "AddStringString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#ae9b8242856e0aa0a92fca2c19e1505ee", null ],
+    [ "AllKeysGet", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#aee4ca68285522ac58dcc1983b60dc58a", null ],
+    [ "Clear", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#af81cade875225aed5cca6717264574cb", null ],
+    [ "CopyToArrayInt32", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#ac58f150113b3a2efcc42da85be269bd9", null ],
+    [ "GetInt32", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#af46bbfe15bb17b79d770b18da3ac1a26", null ],
+    [ "GetKeyInt32", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a7e207f2a9734fc7d0f16668e6f392bb3", null ],
+    [ "GetString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#ae2075f400a4b3ba2b9dd44c255678832", null ],
+    [ "GetValuesInt32", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a25f6efc1a9316b6819812c50b7a98a01", null ],
+    [ "GetValuesString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#adfc5c9f3db718b9aa7e0c01663574b1e", null ],
+    [ "HasKeys", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a27f4476d096b6c2ba6c86ee125069ecd", null ],
+    [ "InternalHasKeys", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a6c8d87337feea10337011d4aaa8fe3e3", null ],
+    [ "InvalidateCachedArrays", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a2a3e86bbc2e7152a72eb70ec94097eec", null ],
+    [ "ItemGetInt32", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a494ff3556795999db78086c4a188471c", null ],
+    [ "ItemGetString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#ada6cd08cbdb23009d9e8f2468682b976", null ],
+    [ "ItemSetStringString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#afabb161561f1a03049191f31d6285410", null ],
+    [ "RemoveString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#a1fb937cffa3d93de1018363fcf38b339", null ],
+    [ "SetStringString", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html#ad87d9256e4d591f5fd500d1bef845798", null ]
+];

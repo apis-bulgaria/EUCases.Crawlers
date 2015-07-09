@@ -1,0 +1,27 @@
+var class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket =
+[
+    [ "StubWebSocket", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#abfb07b1da37a12b476d8753113eecb51", null ],
+    [ "Abort", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a141702afa230383e99228343eac1a705", null ],
+    [ "CloseAsync", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#aa9268e36c7f8edf5b8580c68532184fa", null ],
+    [ "CloseOutputAsync", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a4604d12dcd197d9deeeba8387fd778a9", null ],
+    [ "Dispose", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a17100d2fe664583912518aa7e906cf8d", null ],
+    [ "ReceiveAsync", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a1922b123c701b5bf93dc2c946c19ba44", null ],
+    [ "SendAsync", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#ace5f0ef25854082f41c062aaf42cc327", null ],
+    [ "Abort01", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#ac7a1e0526e713fc41d5e5649e8425e19", null ],
+    [ "CloseAsyncWebSocketCloseStatusStringCancellationToken", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a80c223a9ef0c5ce77d7ebf9132eef51c", null ],
+    [ "CloseOutputAsyncWebSocketCloseStatusStringCancellationToken", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a33b410a632483aa661b7ee8a68bcaa1a", null ],
+    [ "CloseStatusDescriptionGet", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a741f1454527230b47fd65143ae600061", null ],
+    [ "CloseStatusGet", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a04a60f3ef959b863720ffb5d7ccdb0a6", null ],
+    [ "Dispose01", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a172d6ef96a892cb46f53f506d4d89f1c", null ],
+    [ "ReceiveAsyncArraySegmentOfByteCancellationToken", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a555f1608ea2863b7db11c29a3842883a", null ],
+    [ "SendAsyncArraySegmentOfByteWebSocketMessageTypeBooleanCancellationToken", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a43296b380df149ebce54e12caefe5245", null ],
+    [ "StateGet", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a3f61d0ef55d1e5d3d8d92b9e4b73eed4", null ],
+    [ "SubProtocolGet", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a3b7e3fb3b4a92e6154262484df5d8eae", null ],
+    [ "CallBase", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#ac732b40ae48b3713f2c28165f8ae10c4", null ],
+    [ "CloseStatus", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a9bc11940cf54a3c6cc0805a300d4a9a0", null ],
+    [ "CloseStatusDescription", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#abb69af6d63e17aee0a5d41e5b775836a", null ],
+    [ "InstanceBehavior", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#acdf00110c0586682ca3f89530965c1ec", null ],
+    [ "InstanceObserver", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a649ceaff825fb3c465ada3caa0ccc787", null ],
+    [ "State", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a555ef8c91e210bae55ff5dd7c97615e4", null ],
+    [ "SubProtocol", "class_system_1_1_net_1_1_web_sockets_1_1_fakes_1_1_stub_web_socket.html#a388a75107628c227d9d3bc8267f9f3b0", null ]
+];

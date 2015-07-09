@@ -1,0 +1,19 @@
+var namespace_system_1_1_collections_1_1_specialized_1_1_fakes =
+[
+    [ "ShimNameObjectCollectionBase", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_object_collection_base.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_object_collection_base" ],
+    [ "ShimNameValueCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_name_value_collection" ],
+    [ "ShimStringCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_collection.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_collection" ],
+    [ "ShimStringDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_dictionary" ],
+    [ "ShimStringEnumerator", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_enumerator.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_shim_string_enumerator" ],
+    [ "StubCollectionsUtil", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_collections_util.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_collections_util" ],
+    [ "StubHybridDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_hybrid_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_hybrid_dictionary" ],
+    [ "StubINotifyCollectionChanged", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_i_notify_collection_changed.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_i_notify_collection_changed" ],
+    [ "StubIOrderedDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_i_ordered_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_i_ordered_dictionary" ],
+    [ "StubListDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_list_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_list_dictionary" ],
+    [ "StubNameObjectCollectionBase", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_name_object_collection_base.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_name_object_collection_base" ],
+    [ "StubNameValueCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_name_value_collection.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_name_value_collection" ],
+    [ "StubNotifyCollectionChangedEventArgs", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_notify_collection_changed_event_args.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_notify_collection_changed_event_args" ],
+    [ "StubOrderedDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_ordered_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_ordered_dictionary" ],
+    [ "StubStringCollection", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_string_collection.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_string_collection" ],
+    [ "StubStringDictionary", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_string_dictionary.html", "class_system_1_1_collections_1_1_specialized_1_1_fakes_1_1_stub_string_dictionary" ]
+];

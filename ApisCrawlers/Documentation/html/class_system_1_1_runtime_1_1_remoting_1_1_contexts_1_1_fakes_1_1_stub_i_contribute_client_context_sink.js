@@ -1,0 +1,5 @@
+var class_system_1_1_runtime_1_1_remoting_1_1_contexts_1_1_fakes_1_1_stub_i_contribute_client_context_sink =
+[
+    [ "StubIContributeClientContextSink", "class_system_1_1_runtime_1_1_remoting_1_1_contexts_1_1_fakes_1_1_stub_i_contribute_client_context_sink.html#a8ddcf00381e1af370e1aeeda9ab289a3", null ],
+    [ "GetClientContextSinkIMessageSink", "class_system_1_1_runtime_1_1_remoting_1_1_contexts_1_1_fakes_1_1_stub_i_contribute_client_context_sink.html#a6098bae0d2bdfe548a5dd37a59fd4430", null ]
+];

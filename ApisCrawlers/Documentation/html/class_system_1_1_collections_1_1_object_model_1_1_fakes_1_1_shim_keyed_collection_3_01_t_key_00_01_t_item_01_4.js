@@ -1,0 +1,26 @@
+var class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4 =
+[
+    [ "ShimKeyedCollection", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#acd46985115bc2c3277f3c9f1c6f5c9de", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ad9a9de88550ab35568a402a85f401767", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a0f5377167b428686e7bc9fe814f9fd7f", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a761e85042ed4a917a869014a7248172a", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ac62ed6c45faa36e22968083834960175", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a15550c00cb4bf8b6f9098d64563e8318", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#aad90363af36b144796597d5ad7d2c66c", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a01f606bb99059842492dc9fb82277d1a", null ],
+    [ "Bind", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a6e62d96e791310da39ecf94ec0fa08dc", null ],
+    [ "AddKeyT0T1", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a2baf4d8d1c059061319c1bc2c2ed00de", null ],
+    [ "ChangeItemKeyT1T0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ae8e0fd0cfdadd034cc9defd26ee9e9b0", null ],
+    [ "ClearItems", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ae47c122bb5dbf14a2db7866c775ede1f", null ],
+    [ "ComparerGet", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ad685c8f38437ab5bd340dadfeefccfb7", null ],
+    [ "ContainsItemT1", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a8b7be776d7bbf7235e9d702a1370a608", null ],
+    [ "ContainsT0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a974e3201ff6ce5bceb88849de39cc454", null ],
+    [ "CreateDictionary", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a910d6c888fea98902c9139829d854d91", null ],
+    [ "DictionaryGet", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a4b4b08bf283cac7f10bd99bfa044bef8", null ],
+    [ "InsertItemInt32T1", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ae13b9212752fcd3a4a173422413776d7", null ],
+    [ "ItemGetT0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a86b00aa849942f8ab1bfb01291b2b18e", null ],
+    [ "RemoveItemInt32", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a4a47c0dc34ef0089e73c3f8644eafb9c", null ],
+    [ "RemoveKeyT0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ac1a69ab8c5aec0d4ec381e35c606803e", null ],
+    [ "RemoveT0", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#ab1f4b19676c14836f2c8358dedbb98b6", null ],
+    [ "SetItemInt32T1", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html#a97d9cf31c2ef2afee1d643e75849ffe2", null ]
+];

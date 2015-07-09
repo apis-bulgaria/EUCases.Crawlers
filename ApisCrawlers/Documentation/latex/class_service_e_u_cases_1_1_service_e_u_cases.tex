@@ -1,0 +1,79 @@
+\hypertarget{class_service_e_u_cases_1_1_service_e_u_cases}{\section{Service\-E\-U\-Cases.\-Service\-E\-U\-Cases Class Reference}
+\label{class_service_e_u_cases_1_1_service_e_u_cases}\index{Service\-E\-U\-Cases.\-Service\-E\-U\-Cases@{Service\-E\-U\-Cases.\-Service\-E\-U\-Cases}}
+}
+
+
+Implements \hyperlink{interface_service_e_u_cases_1_1_i_service_e_u_cases}{I\-Service\-E\-U\-Cases} and do all job for checking validity of Xml\-Document\-Group and store in database  
+
+
+Inheritance diagram for Service\-E\-U\-Cases.\-Service\-E\-U\-Cases\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_service_e_u_cases_1_1_service_e_u_cases}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_service_e_u_cases_1_1_service_e_u_cases_aecef3d664c3db88a3abe454882449a5c}{Service\-E\-U\-Cases} ()
+\item 
+\hyperlink{class_service_e_u_cases_1_1_service_e_u_cases_a89687e7a389ec6ef033575968fdaea87}{Service\-E\-U\-Cases} (\hyperlink{interface_service_e_u_cases_1_1_repositories_1_1_i_repository}{I\-Repository} repository)
+\item 
+string \hyperlink{class_service_e_u_cases_1_1_service_e_u_cases_af90b39b3604b3f4d99e6c4061dfdcb5c}{Upload\-File} (\hyperlink{class_service_e_u_cases_1_1_upload_document_group}{Upload\-Document\-Group} upload\-Document\-Group)
+\begin{DoxyCompactList}\small\item\em Method that is used to upload Xml\-Document\-Group to web service \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements \hyperlink{interface_service_e_u_cases_1_1_i_service_e_u_cases}{I\-Service\-E\-U\-Cases} and do all job for checking validity of Xml\-Document\-Group and store in database 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_service_e_u_cases_1_1_service_e_u_cases_aecef3d664c3db88a3abe454882449a5c}{\index{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}!Service\-E\-U\-Cases@{Service\-E\-U\-Cases}}
+\index{Service\-E\-U\-Cases@{Service\-E\-U\-Cases}!ServiceEUCases::ServiceEUCases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}}
+\subsubsection[{Service\-E\-U\-Cases}]{\setlength{\rightskip}{0pt plus 5cm}Service\-E\-U\-Cases.\-Service\-E\-U\-Cases.\-Service\-E\-U\-Cases (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_service_e_u_cases_1_1_service_e_u_cases_aecef3d664c3db88a3abe454882449a5c}
+\hypertarget{class_service_e_u_cases_1_1_service_e_u_cases_a89687e7a389ec6ef033575968fdaea87}{\index{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}!Service\-E\-U\-Cases@{Service\-E\-U\-Cases}}
+\index{Service\-E\-U\-Cases@{Service\-E\-U\-Cases}!ServiceEUCases::ServiceEUCases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}}
+\subsubsection[{Service\-E\-U\-Cases}]{\setlength{\rightskip}{0pt plus 5cm}Service\-E\-U\-Cases.\-Service\-E\-U\-Cases.\-Service\-E\-U\-Cases (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Repository}}]{repository}
+\end{DoxyParamCaption}
+)}}\label{class_service_e_u_cases_1_1_service_e_u_cases_a89687e7a389ec6ef033575968fdaea87}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_service_e_u_cases_1_1_service_e_u_cases_af90b39b3604b3f4d99e6c4061dfdcb5c}{\index{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}!Upload\-File@{Upload\-File}}
+\index{Upload\-File@{Upload\-File}!ServiceEUCases::ServiceEUCases@{Service\-E\-U\-Cases\-::\-Service\-E\-U\-Cases}}
+\subsubsection[{Upload\-File}]{\setlength{\rightskip}{0pt plus 5cm}string Service\-E\-U\-Cases.\-Service\-E\-U\-Cases.\-Upload\-File (
+\begin{DoxyParamCaption}
+\item[{{\bf Upload\-Document\-Group}}]{upload\-Document\-Group}
+\end{DoxyParamCaption}
+)}}\label{class_service_e_u_cases_1_1_service_e_u_cases_af90b39b3604b3f4d99e6c4061dfdcb5c}
+
+
+Method that is used to upload Xml\-Document\-Group to web service 
+
+
+\begin{DoxyParams}{Parameters}
+{\em upload\-Document\-Group} & Complex type Xml\-Document\-Group\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ If there is no errors the return string is \char`\"{}\-Ok\char`\"{}
+\begin{DoxyItemize}
+\item If error the return string will be in following format\-: Error\-: $<$error description$>$=\char`\"{}\char`\"{}$>$ 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_service_e_u_cases_1_1_i_service_e_u_cases_afd1213b359b1eeaee46bece0797347df}{Service\-E\-U\-Cases.\-I\-Service\-E\-U\-Cases}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+D\-:/\-Projects/\-E\-U\-C\-A\-S\-E\-S/\-Crawler\-Framework/\-Service\-E\-U\-Cases/\hyperlink{_service_e_u_cases_8svc_8cs}{Service\-E\-U\-Cases.\-svc.\-cs}\end{DoxyCompactItemize}

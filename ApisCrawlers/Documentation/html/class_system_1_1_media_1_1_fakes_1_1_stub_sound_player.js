@@ -1,0 +1,28 @@
+var class_system_1_1_media_1_1_fakes_1_1_stub_sound_player =
+[
+    [ "StubSoundPlayer", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a79a08a975afa2796896dbefc9a7a7f41", null ],
+    [ "StubSoundPlayer", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a643aa3ee478e61c9316553f329a3b035", null ],
+    [ "StubSoundPlayer", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a50cb0c9e73c53eb486bd72fe1380ac85", null ],
+    [ "StubSoundPlayer", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a9d2be66c9187fcc404b3b2d211889a9b", null ],
+    [ "AttachBackingFieldToSite", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a0e514aa3ca821b44c505ae56a9f5af15", null ],
+    [ "Dispose", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a4da63ca3f935ce84fc1e7ee38427ced4", null ],
+    [ "GetService", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#afe75345c7be8d914c050bff1520fd6eb", null ],
+    [ "OnLoadCompleted", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#ac666b5a86fea10e74eeb083bafe981e5", null ],
+    [ "OnSoundLocationChanged", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#ab540c39511cccf79e0e0aa8a7866941e", null ],
+    [ "OnStreamChanged", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#aaf065d72ed936a167af51a7374842174", null ],
+    [ "ToString", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a93f721bac224abc60478febd4d249f3a", null ],
+    [ "CanRaiseEventsGet", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a89b4a35cfb88690f274943cc3eedaba2", null ],
+    [ "DisposeBoolean", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#acc9c5231e58a3a6ab8fd65241ae264f6", null ],
+    [ "GetServiceType", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#ad4509025dea12a799a675b0ebe8c79a8", null ],
+    [ "OnLoadCompletedAsyncCompletedEventArgs", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a468c97862a75c0b12aaaff9e5e272bb8", null ],
+    [ "OnSoundLocationChangedEventArgs", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#aec86b91a0eb444e299560a898fdcaa4c", null ],
+    [ "OnStreamChangedEventArgs", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a680549744b5cd2e0d578aedaf750e229", null ],
+    [ "SiteGet", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#aa1edf1cb536d521b813b41f70039a644", null ],
+    [ "SiteSetISite", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#aa23ba87f9cd29af144dddce337b3127d", null ],
+    [ "ToString01", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a3686ecc06d366e84574847a8baf11ebe", null ],
+    [ "CallBase", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a134a0b4c233f8d5a5eb82bdeabfcadb4", null ],
+    [ "CanRaiseEvents", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#ab1f4b86b91bb029e05fd72e2ce346ba2", null ],
+    [ "InstanceBehavior", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a17a38589526ff5b72028e2c55e57fbca", null ],
+    [ "InstanceObserver", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#a8ef550504769aa3d6b39de4af52bc233", null ],
+    [ "Site", "class_system_1_1_media_1_1_fakes_1_1_stub_sound_player.html#ac984de05778e03112d762263e5cf0135", null ]
+];

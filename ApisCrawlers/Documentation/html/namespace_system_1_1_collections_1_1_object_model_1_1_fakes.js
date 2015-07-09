@@ -1,0 +1,14 @@
+var namespace_system_1_1_collections_1_1_object_model_1_1_fakes =
+[
+    [ "ShimCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_collection_3_01_t_01_4" ],
+    [ "ShimKeyedCollection< TKey, TItem >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_keyed_collection_3_01_t_key_00_01_t_item_01_4" ],
+    [ "ShimReadOnlyCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_read_only_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_read_only_collection_3_01_t_01_4" ],
+    [ "StubCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_collection_3_01_t_01_4" ],
+    [ "StubKeyedCollection< TKey, TItem >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_keyed_collection_3_01_t_key_00_01_t_item_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_keyed_collection_3_01_t_key_00_01_t_item_01_4" ],
+    [ "StubReadOnlyCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_collection_3_01_t_01_4" ],
+    [ "StubReadOnlyDictionary< TKey, TValue >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_dictionary_3_01_t_key_00_01_t_value_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_dictionary_3_01_t_key_00_01_t_value_01_4" ],
+    [ "ShimObservableCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_observable_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_observable_collection_3_01_t_01_4" ],
+    [ "ShimReadOnlyObservableCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_read_only_observable_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_shim_read_only_observable_collection_3_01_t_01_4" ],
+    [ "StubObservableCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_observable_collection_3_01_t_01_4" ],
+    [ "StubReadOnlyObservableCollection< T >", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_observable_collection_3_01_t_01_4.html", "class_system_1_1_collections_1_1_object_model_1_1_fakes_1_1_stub_read_only_observable_collection_3_01_t_01_4" ]
+];

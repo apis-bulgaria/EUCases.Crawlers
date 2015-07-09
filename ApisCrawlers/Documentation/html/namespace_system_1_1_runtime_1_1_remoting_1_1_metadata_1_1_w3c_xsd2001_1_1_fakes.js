@@ -1,0 +1,4 @@
+var namespace_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_w3c_xsd2001_1_1_fakes =
+[
+    [ "StubISoapXsd", "class_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_w3c_xsd2001_1_1_fakes_1_1_stub_i_soap_xsd.html", "class_system_1_1_runtime_1_1_remoting_1_1_metadata_1_1_w3c_xsd2001_1_1_fakes_1_1_stub_i_soap_xsd" ]
+];

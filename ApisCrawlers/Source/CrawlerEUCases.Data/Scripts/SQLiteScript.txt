@@ -1,0 +1,21 @@
+CREATE TABLE [DocumentGroups] (
+  [DocumentGroupId] INTEGER NOT NULL PRIMARY KEY ON CONFLICT ROLLBACK AUTOINCREMENT, 
+  [DocumentGroupDate] NVARCHAR(100), 
+  [DocumentGroupName] NVARCHAR(250), 
+  [Identifier] NVARCHAR(50), 
+  [Operation] INT);
+
+CREATE UNIQUE INDEX [i_DocumentGroupName] ON [DocumentGroups] ([DocumentGroupName]);
+
+
+CREATE TABLE [Documents] (
+  [DocumentId] INTEGER NOT NULL PRIMARY KEY ON CONFLICT ROLLBACK AUTOINCREMENT, 
+  [DocumentFormat] NVARCHAR(100), 
+  [DocumentName] NVARCHAR(250), 
+  [Identifier] NVARCHAR(50), 
+  [Operation] INT, 
+  [Url] NVARCHAR, 
+  [Md5] NVARCHAR(50), 
+  [DocumentGroupId] INTEGER NOT NULL CONSTRAINT [fk_Documents_DocumentGroups] REFERENCES [DocumentGroups]([DocumentGroupId]) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE INDEX [i_Documents_DocumentGroupId] on [Documents] ([DocumentGroupId]);

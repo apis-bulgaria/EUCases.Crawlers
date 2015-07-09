@@ -1,0 +1,27 @@
+var class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection =
+[
+    [ "StubCodeTypeDeclarationCollection", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#af560fe489907cba0df9a492431574d8b", null ],
+    [ "StubCodeTypeDeclarationCollection", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a2148a221c7a332981f97b3c15073ab06", null ],
+    [ "StubCodeTypeDeclarationCollection", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a9bdd49034d0ceef6aae5e6addd1ec285", null ],
+    [ "OnClear", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a4ae6415b1ae2beb5f694cfd9540a94e0", null ],
+    [ "OnClearComplete", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a7fe37a75e7aa3a04fdc52b69dbcb5ac4", null ],
+    [ "OnInsert", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a940eb9a80693dca57bb2229292c5be61", null ],
+    [ "OnInsertComplete", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a282b52ba8dba6e9e9d3a6b968b8d3fa1", null ],
+    [ "OnRemove", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#ae67bf3b4aaf53b75f357b143c2147b77", null ],
+    [ "OnRemoveComplete", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a0c6af3b0eb92e72458a142c82dfc1018", null ],
+    [ "OnSet", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#aab50cb60b295929b78933d73bdb984e1", null ],
+    [ "OnSetComplete", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#adcab8e0c5ad311b699ca714b4fb0a066", null ],
+    [ "OnValidate", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#ac4b1ee6ec3362e1684f88e413991b00c", null ],
+    [ "OnClear01", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a836703fd9a16b81275bf4f9aa66c7b57", null ],
+    [ "OnClearComplete01", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#af42133ab5e8684e278b01eabb37a3fc9", null ],
+    [ "OnInsertCompleteInt32Object", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a63c7b59ee692cd20e5d4b544921b7430", null ],
+    [ "OnInsertInt32Object", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a12644aa36f7a006fce98bf48e240b009", null ],
+    [ "OnRemoveCompleteInt32Object", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a82ec6fce6045b3649f2397dd66b7b726", null ],
+    [ "OnRemoveInt32Object", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#aab8a1bc1cd49bea54f9b9b95fa0436a1", null ],
+    [ "OnSetCompleteInt32ObjectObject", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a842d39c00c6c9c03e054fe1469a475d1", null ],
+    [ "OnSetInt32ObjectObject", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#aaccef39fed4d86ba5159b499aef8a5f4", null ],
+    [ "OnValidateObject", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#ae386885842d1bb8169906bb1b3a44ace", null ],
+    [ "CallBase", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a3ebc5b8b64c00c2f1dbede45cafec3d6", null ],
+    [ "InstanceBehavior", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#a8e92886ff3246c9daa73f88bf251daee", null ],
+    [ "InstanceObserver", "class_system_1_1_code_dom_1_1_fakes_1_1_stub_code_type_declaration_collection.html#ab515155ee4593454f1412e88131e82bf", null ]
+];

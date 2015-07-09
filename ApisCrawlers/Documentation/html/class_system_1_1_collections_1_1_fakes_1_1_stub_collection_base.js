@@ -1,0 +1,26 @@
+var class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base =
+[
+    [ "StubCollectionBase", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#ae9c1b6e2272da51a682a1371fc1799ec", null ],
+    [ "StubCollectionBase", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a4965f74af7d9398d24bd4e968b9c74c9", null ],
+    [ "OnClear", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#aa5b6d6ff7039939525087c37bb0f37ce", null ],
+    [ "OnClearComplete", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a91e7f578d96a2310ea17613f921d9050", null ],
+    [ "OnInsert", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a91aa829797fbd3a440fec6fcb246ef30", null ],
+    [ "OnInsertComplete", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a36c8d654b6ffea5d5e32bb6b2269f005", null ],
+    [ "OnRemove", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#ab1f704af65d3e54a1a51706d98a3408f", null ],
+    [ "OnRemoveComplete", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a73b6de19510ca344c9a72991b8267aba", null ],
+    [ "OnSet", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#ad5e0f6cd2ce56cc52be9cc8980cfc121", null ],
+    [ "OnSetComplete", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#aee352a5210a10fe1592658b65f27f88a", null ],
+    [ "OnValidate", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a30a94bd047ba4fd2872501d662c63e3a", null ],
+    [ "OnClear01", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a89b03e71a9aa7ec6ffc677f9939cfd11", null ],
+    [ "OnClearComplete01", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a66459f7cca596c6734b52c61be5b25e1", null ],
+    [ "OnInsertCompleteInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#ae86100db23b7d9b5c91781c40d052c9e", null ],
+    [ "OnInsertInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a04761db766ec3917772493a2b3dc788f", null ],
+    [ "OnRemoveCompleteInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a4501f32291ae35262dae045c9860f6f1", null ],
+    [ "OnRemoveInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a38cca795c68d797cac96d00809f511a4", null ],
+    [ "OnSetCompleteInt32ObjectObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a76bdbb8dbcc9f5c3f1e1c1833558be2b", null ],
+    [ "OnSetInt32ObjectObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#adc87040dc53c6208b0384bbf3d8296c6", null ],
+    [ "OnValidateObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a68579c028d819c666bb8f2171d55280d", null ],
+    [ "CallBase", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a2e297fb093e55ecb488cfcb8d514bab6", null ],
+    [ "InstanceBehavior", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a43dbcd989d36f9287615bb69d6a98c55", null ],
+    [ "InstanceObserver", "class_system_1_1_collections_1_1_fakes_1_1_stub_collection_base.html#a6d16a1bc6a70bf64e7b41bf14df45d91", null ]
+];

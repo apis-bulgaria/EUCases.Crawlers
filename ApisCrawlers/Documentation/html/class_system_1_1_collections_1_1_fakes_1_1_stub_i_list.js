@@ -1,0 +1,26 @@
+var class_system_1_1_collections_1_1_fakes_1_1_stub_i_list =
+[
+    [ "StubIList", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#aa9104cc82eb9cd29e6623e61d87e3ce5", null ],
+    [ "AddObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a93c434d2570207113b14d9f38c0b6ac8", null ],
+    [ "Clear", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a2a5232d5477f2a8cfba2d45e7b8ab164", null ],
+    [ "ContainsObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#aa6021fbb2dcc379e2e343d36db8a96eb", null ],
+    [ "CopyToArrayInt32", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ae5a4a789a76f1fa825c824e4e6f7c60f", null ],
+    [ "CountGet", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ab795453a58cf894f7563d83f4aa24f2b", null ],
+    [ "GetEnumerator", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#acda0187574e4f59e1ec34668cd50c71e", null ],
+    [ "IndexOfObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ac1a926a9db231775aef51bd452ee646e", null ],
+    [ "InsertInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a4fb41a174f77b4717d17bc21e32163e2", null ],
+    [ "IsFixedSizeGet", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a3741d360b135130e9cd325932a7050db", null ],
+    [ "IsReadOnlyGet", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a45b3e53e965bf56e518d428850890cb1", null ],
+    [ "IsSynchronizedGet", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ab48b0f77e4a98b8a3a7fc3a9ff9ebc3e", null ],
+    [ "ItemGetInt32", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#acb0f7d09c7f1dd11fda98c871b3077fa", null ],
+    [ "ItemSetInt32Object", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a0e2ef2178c3988aed30aacd00df879da", null ],
+    [ "RemoveAtInt32", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ab84925b439d13a226a27b2cc191a3a2d", null ],
+    [ "RemoveObject", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ad0df482c75781b2264ceffaa5fa31eda", null ],
+    [ "SyncRootGet", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a9b107b2e02005b6fb138ab7f818bd1ff", null ],
+    [ "Count", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#aafb25f22cb98b20d0f4f5b5e503e33c9", null ],
+    [ "IsFixedSize", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a922ca84376d8aebd0b8f1cd4ab95ad31", null ],
+    [ "IsReadOnly", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ae99a17b70ff9f768db38fd07b8b9952d", null ],
+    [ "IsSynchronized", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#ae623cb5ac9912e42d2dc7e4af4ba6f92", null ],
+    [ "SyncRoot", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a26821090db72dbc9c6971a472d2231ce", null ],
+    [ "this[int index]", "class_system_1_1_collections_1_1_fakes_1_1_stub_i_list.html#a349d902999d81d5d41f24bf9599d3388", null ]
+];

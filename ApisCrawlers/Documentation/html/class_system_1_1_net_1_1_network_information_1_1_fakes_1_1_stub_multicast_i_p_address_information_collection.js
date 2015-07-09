@@ -1,0 +1,25 @@
+var class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection =
+[
+    [ "StubMulticastIPAddressInformationCollection", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a0239c092e1ad7b596979e703b87ac850", null ],
+    [ "Add", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#ad55e08b2fcc5c6ab82675b1c4b4b8fd9", null ],
+    [ "Clear", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a13bf416481b465119d3a4e76818e75bc", null ],
+    [ "Contains", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a5dbe92ab1882224fff120f69fac20ffa", null ],
+    [ "CopyTo", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a1da01dbb11e0d9ba983c1c5b138a8cb2", null ],
+    [ "GetEnumerator", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#acd6257a9bc0ed7dcfed10b93366ef761", null ],
+    [ "Remove", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a48e5245512de03818e35fcf6150d4d77", null ],
+    [ "AddMulticastIPAddressInformation", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a63b557fc15598076c83d2812e9af5eed", null ],
+    [ "Clear01", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#ae9d4bfd16c4dd6411ca37b5b451a81b8", null ],
+    [ "ContainsMulticastIPAddressInformation", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#af6318fc75b7af87b850af01169d6a15d", null ],
+    [ "CopyToMulticastIPAddressInformationArrayInt32", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a5fd5e70334efceda0a431d170207be9a", null ],
+    [ "CountGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a6da44fe651c708381d45aed123eeaada", null ],
+    [ "GetEnumerator01", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#ad843900c66b0bc5534cf8290c22e0928", null ],
+    [ "IsReadOnlyGet", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a73d4e807043c15dbb5c2fae094c68d6a", null ],
+    [ "ItemGetInt32", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a4fd9bfbe6949384f591935083bf9813c", null ],
+    [ "RemoveMulticastIPAddressInformation", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a502d0d89d250519ffd723f7e856f0297", null ],
+    [ "CallBase", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#aa63e5841b72548c7125c75aeb75bf42f", null ],
+    [ "Count", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a4317fee9461661d380ea78c03bc1d53a", null ],
+    [ "InstanceBehavior", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#aa195e16940f4ae6aea1e31570e9dc457", null ],
+    [ "InstanceObserver", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a0b9fd2c33a879abaf9337a20dab1f612", null ],
+    [ "IsReadOnly", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#a4526c5d59940c3aa6bd30369de655ca8", null ],
+    [ "this[int index]", "class_system_1_1_net_1_1_network_information_1_1_fakes_1_1_stub_multicast_i_p_address_information_collection.html#aa5e92b35a76d4919061cd58e36ed5ce3", null ]
+];

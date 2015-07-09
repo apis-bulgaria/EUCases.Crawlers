@@ -1,0 +1,25 @@
+var class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage =
+[
+    [ "StubIsolatedStorage", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#aa4f421fb46b5c15a8e4fda7ef381724e", null ],
+    [ "GetPermission", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a2a44131b3ecd43274a3e892ae10a19d1", null ],
+    [ "IncreaseQuotaTo", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a4afc6881f3b672db97f2b45edbd99ada", null ],
+    [ "Remove", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#ad6eed7bcb3a088c6859f0f6e5a5f084e", null ],
+    [ "AvailableFreeSpaceGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a89dbabb6dbe2a6563c0cd0482e111fbc", null ],
+    [ "CurrentSizeGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#aecbe0c30c6435097313681cbb71dfb16", null ],
+    [ "GetPermissionPermissionSet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a889a33a186b23ca8b266137b127138d4", null ],
+    [ "IncreaseQuotaToInt64", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a36e9c3260161572a9d957cd2905ff209", null ],
+    [ "MaximumSizeGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#af74e89f7b0e56485ad93d4853915df36", null ],
+    [ "Remove01", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#ad1c670d2e74cb3a032ea854700d175b2", null ],
+    [ "SeparatorExternalGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a8aedc87a6e7421cfc38dd89e40eaf01d", null ],
+    [ "SeparatorInternalGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a87cbb540877f8ef44e7dc73eea09c259", null ],
+    [ "UsedSizeGet", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#ac7206f93f5a535b14740e71e59a47aae", null ],
+    [ "AvailableFreeSpace", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a4b15e469aeba32bc640a07dbf19bcfdf", null ],
+    [ "CallBase", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a66e73b48638f408a2835400ac00ede24", null ],
+    [ "CurrentSize", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#af816e68ba851b95fc19d18117580037d", null ],
+    [ "InstanceBehavior", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a307aa15f2219c2a7a0b4f1cc0b427988", null ],
+    [ "InstanceObserver", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#acd2885af0f1cca57e1543f517647473d", null ],
+    [ "MaximumSize", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a058093d02e058fd3987726b2df1c9e3a", null ],
+    [ "SeparatorExternal", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a128366c5e594561dd369d33d11235f28", null ],
+    [ "SeparatorInternal", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a11ba62b04e42ce5dc4c8d6a775b0e273", null ],
+    [ "UsedSize", "class_system_1_1_i_o_1_1_isolated_storage_1_1_fakes_1_1_stub_isolated_storage.html#a156998f712fd8f8f1b62c75319feab88", null ]
+];

@@ -1,0 +1,11 @@
+var class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink =
+[
+    [ "StubIServerChannelSink", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a813e276311b37657557f3e4c72af9437", null ],
+    [ "AsyncProcessResponseIServerResponseChannelSinkStackObjectIMessageITransportHeadersStream", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a08c066b78c801f475499fc94476a4e5e", null ],
+    [ "GetResponseStreamIServerResponseChannelSinkStackObjectIMessageITransportHeaders", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#ae05e1ee9f8ad56bd54d3760a17930b27", null ],
+    [ "NextChannelSinkGet", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a40df6d5a224adcde8ae068d8e1484b47", null ],
+    [ "ProcessMessageIServerChannelSinkStackIMessageITransportHeadersStreamIMessageOutITransportHeadersOutStreamOut", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a5fb09d80d67a19de42626b108e3e964b", null ],
+    [ "PropertiesGet", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a8a1593c39e010de30d467ebf26b882e7", null ],
+    [ "NextChannelSink", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#a9ab99b15f8c96e823b16969f4e1e7dbd", null ],
+    [ "Properties", "class_system_1_1_runtime_1_1_remoting_1_1_channels_1_1_fakes_1_1_stub_i_server_channel_sink.html#afbd532a34d6ad2bf0ddbf0f26fe548f8", null ]
+];

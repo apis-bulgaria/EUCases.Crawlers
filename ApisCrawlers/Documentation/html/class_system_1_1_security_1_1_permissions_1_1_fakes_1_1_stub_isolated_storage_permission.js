@@ -1,0 +1,25 @@
+var class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission =
+[
+    [ "StubIsolatedStoragePermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a7437ccbdd7aa1242f6548d5ded1c7e5d", null ],
+    [ "Copy", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#af092a312237ee8f12843371606da3fd1", null ],
+    [ "Equals", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a0f510d608e7d72d098c273e94696181b", null ],
+    [ "FromXml", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a458aaca20be494fc7eef447e20a7a927", null ],
+    [ "GetHashCode", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a0e255374dd1d865544cb8e7af5669889", null ],
+    [ "Intersect", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a4ea6e4df579ef6d1577b1c185f05ec44", null ],
+    [ "IsSubsetOf", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a6ff5e7c08509e33162b1ad6f8a9d24b3", null ],
+    [ "ToString", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a5a0e28a33d4f048d6b0ea0f083748739", null ],
+    [ "ToXml", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a42bc3e5a71c1ab462ef748df8803b3d9", null ],
+    [ "Union", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a9bec3a139ddf2a5a93e1939d6d952467", null ],
+    [ "Copy01", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#ab030f6a63f7d3065b46739a571743c28", null ],
+    [ "EqualsObject", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#ad3ad850a2c30839d669831f74013b5ec", null ],
+    [ "FromXmlSecurityElement", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a8fe3294add15613b09faaec01e7bf852", null ],
+    [ "GetHashCode01", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a99784b6d782a775742430bf3ed2b8e97", null ],
+    [ "IntersectIPermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a2d61c76240be9920724f92a256a30592", null ],
+    [ "IsSubsetOfIPermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a1bf5c6126563585f43c49fd7ae0e5b4e", null ],
+    [ "ToString01", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a443c4a342dd9233a0ec67bd9e9fa6616", null ],
+    [ "ToXml01", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a15057c20396f57d58dff68dddb16932b", null ],
+    [ "UnionIPermission", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a3db65a9f6557917e2ce85149bd47f9aa", null ],
+    [ "CallBase", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#af4ad8358b1e7a1df10043b8a935ecba2", null ],
+    [ "InstanceBehavior", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a160585ca8b86671d8b89ff22af0afd45", null ],
+    [ "InstanceObserver", "class_system_1_1_security_1_1_permissions_1_1_fakes_1_1_stub_isolated_storage_permission.html#a4f0ca789260abe49d5f01d4f8f6db975", null ]
+];
